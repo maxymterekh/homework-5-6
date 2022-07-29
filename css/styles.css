@@ -1,7 +1,14 @@
 
-.links {
+a[href="https://www.youtube.com/"] , [href="https://validator.w3.org/"] {
     color: red;
 }
+
+
+
+#paragraph {
+    font-size: 24px;
+}
+
 
 
 
