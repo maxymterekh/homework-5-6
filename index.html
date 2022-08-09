@@ -11,15 +11,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="cs/styles.css">
+    
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<!-- <link rel="stylesheet" href="css/reset.css"> -->
+<link rel="stylesheet" href="https://cdnjs.com/libraries/modern-normalize">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Webstudio</title>
 
 </head>
 <body>
 
+    
     <header>
-        <a href="/" class="web">Web<span class="studio">Studio</span> </a>
+        <span class="web-studio-header">
+        <a href="/" class ="web">Web<span class="studio">Studio</span> </a></span>
         
         <nav>
             <ul>
@@ -27,10 +33,10 @@
                     <a class="nav-item" href="studia">Студія</a>
                 </li>
                 <li class="nav-li">
-                    <a  class="nav-portfolio" href="portfolio">Портфоліо</a>
+                    <a  class="nav-item" href="portfolio">Портфоліо</a>
                 </li>
                 <li class="nav-li">
-                    <a class="nav-cont" href="contacts">Контакти</a>
+                    <a class="nav-item" href="contacts">Контакти</a>
                 </li>
 
                 
@@ -54,12 +60,12 @@
 <!-- main  -->
     <main>
         <!-- ефективні рішення  -->
-     <section>
+     <section class="section-1">
         <h1 class="effect-bis">
             ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ
         </h1>
         
-        <button type="button" class="button">
+        <button type="button" class="btn">
           Замовити послугу
         
              
@@ -73,33 +79,33 @@
 
      <!-- вміння -->
 
-     <section>
-     <h2>Наші вміння</h2>
+     <section class="section-2">
+     <h2 class="our">Наші вміння</h2>
      <ul>
-        <li>
-            <h3 class="uvaga-do">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="lorem1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet necessitatibus tenetur enim similique veniam?</p>
+        <li class="skills-li">
+            <h3 class="skills-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet necessitatibus tenetur enim similique veniam?</p>
 
         </li>
 
-        <li>
-            <h3 class="punktual">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="lorem2"
+        <li class="skills-li">
+            <h3 class="skills-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="lorem"
             > Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse laborum ducimus sit voluptatibus necessitatibus?</p> 
         </li>
 
-        <li>
-            <h3 class="plan">
+        <li class="skills-li" >
+            <h3 class="skills-title">
             ПЛАНУВАННЯ
             </h3>
-            <p class="lorem3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias optio amet nisi impedit tempore.</p>
+            <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias optio amet nisi impedit tempore.</p>
         </li>
 
-        <li>
-            <h3 class="modern">
+        <li class="skills-li">
+            <h3 class="skills-title">
           СУЧАСНІ ТЕХНОЛОГІЇ
             </h3>
-            <p class="lorem4">
+            <p class="lorem">
            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus commodi rerum non dolore ex.
             </p>
         
@@ -112,55 +118,57 @@
      <section>
        <h2 class="zayman">Чим ми займаємось</h2>
        <ul>
-        <li>
+        <li class="nav-li">
           <img src="images/img.png" alt="photo-1">
         </li>
 
-        <li>
+        <li class="nav-li">
           <img src="images/box2.png" alt="photo-2">
         </li>
 
-        <li>
-          <img src="images/box3.png" alt="photo-3">
+        <li class="nav-li">
+          <img class="image-section-3" src="images/box3.png" alt="photo-3">
         </li>
        </ul>
      </section>
 
      <!-- наша команда -->
 
-     <section>
-      <h2>Наша команда</h2>
+     <section class="team-section">
+      <h2 class="our-team">Наша команда</h2>
 
       <ul>
-        <li>
-          
-        <img src="images/img.jpg" alt="team-1">
-        <h3>Ігор Дем'яненко</h3>
-        <p>Product Designer</p>
+        <li class="nav-li" >
+          <section class="card">
+        <img class="team-img" src="images/img.jpg" alt="team-1">
+        <h3 class="team-title">Ігор Дем'яненко</h3>
+        <p class="professions">Product Designer</p>
+    </section>
+    
       
       </li>
-      <li>
-        
-          <img src="images/img(1).jpg" alt="team-2">
-          <h3>Ольга Репіна</h3>
-          <p>Frontend Developer</p>
-        
+      <li class="nav-li" >
+        <section class="card">
+          <img class="team-img" src="images/img(1).jpg" alt="team-2">
+          <h3 class="team-title">Ольга Репіна</h3>
+          <p class="professions">Frontend Developer</p>
+        </section>
 
       </li>
-      <li>
-        
-          <img src="images/img(2).jpg" alt="team-3">
-          <h3>Микола Тарасов</h3>
-          <p>Marketing</p>
-        
+      <li class="nav-li" >
+        <section class="card">
+          <img class="team-img" src="images/img(2).jpg" alt="team-3">
+          <h3 class="team-title">Микола Тарасов</h3>
+          <p class="professions">Marketing</p>
+        </section>
       </li>
 
-      <li>
-        
-          <img src="images/img(3).jpg" alt="team-4">
-          <h2>Михайло Єрмаков</h2>
-          <p>UI Designer</p>
-        
+      <li class="nav-li"  >
+        <section class="card">
+          <img class="team-img" src="images/img(3).jpg" alt="team-4">
+          <h2 class="team-title">Михайло Єрмаков</h2>
+          <p class="professions">UI Designer</p>
+        </section>
       </li>
       </ul>
 
@@ -176,12 +184,12 @@
 
     <!-- футер -->
 
-    <footer>
-       <h2>WebStudio</h2>
-       <h3>м. Київ, пр-т Лесі Українки, 26</h3>
-       <address>info@example.com</address>
+    <footer class="footer">
+       <h2 class="web">Web<span class="studio-2">Studio</span></h2>
+       <h3 class="address-info">м. Київ, пр-т Лесі Українки, 26</h3>
+       <address class="footer-last-bars">info@example.com</address>
        
-       <address>+38 099 111 11 11</address>
+       <address class="footer-last-bars">+38 099 111 11 11</address>
        
     </footer>
     

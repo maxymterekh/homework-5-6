@@ -1,14 +1,7 @@
 
-  /* header */
- 
-  .web {
-    position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-
-font-family: 'Raleway';
+     /* ХЕДЕР */
+.web {
+    font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -17,40 +10,39 @@ line-height: 31px;
 
 letter-spacing: 0.03em;
 
-color:#2196F3;
+color: #2196F3;
 
 
 }
 .studio {
-    color: black;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #000000;
+
 }
+/* .web-studio-header:hover {
+    color: green;
+} */
 
-.nav-item {
-    position: absolute;
-width: 45px;
-height: 16px;
-left: 453px;
-top: 32px;
-
-font-family: 'Roboto';
+.nav-li {
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 
-color: #2196F3;
-    
+color: white;
 }
-
-.nav-portfolio {
-    position: absolute;
-width: 72px;
-height: 16px;
-left: 552px;
-top: 32px;
-
-font-family: 'Roboto';
+.nav-item {
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -58,92 +50,31 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #212121;
-
-}
-.nav-cont {
-    position: absolute;
-width: 64px;
-height: 16px;
-left: 679px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #212121 ;
-
-
 }
 
-.em {
-    position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #2196F3;
-
-
-}
-
-.phone {
-    position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #757575;
-
-}
-
-.nav-li {
-    color: white;
-
-}
-.em-phone {
+.em, .phone {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+
 color: #757575;
-;
+
+
 }
 
-  /* MAIN    */
 
-  /* ефективні рішення */
+/* МЕЙН */
+/* section 1 */
+.section-1 {
+    background-color:  #2F303A;
 
+}
 
-  .effect-bis {
-
-    position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
-
-font-family: 'Roboto';
+.effect-bis {
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -153,82 +84,61 @@ line-height: 60px;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color:  #FFFFFF;
-;
 
+color: #FFFFFF;
 
+}
+.btn {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
 
-  }
-  .effect-back {
-    position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
 
-background: #2F303A;
-  }
-  
-  
-  
-  .button {
-    position: absolute;
-width: 200px;
-height: 50px;
-left: 741px;
-top: 448px;
+color: #FFFFFF;
 
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-  }
-  
-.button-text {
-    
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
-    
-    
-    
+border: 0;
+}
+/* section 2 */
+
+
+
+
+
+.our {
     color: #FFFFFF;
+}
+.skills-li {
+ 
+
+color: white;
+
+    
+}
+.skills-title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
 
 }
 
-  /* список  */
-    /* увага до деталей */
-
-  .uvaga-do {
-    position: absolute;
-width: 270px;
-height: 16px;
-left: 215px;
-top: 774px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: #212121;
-
-  }
-
-  .lorem1 {
-    position: absolute;
-width: 270px;
-height: 75px;
-left: 215px;
-top: 800px;
-
-font-family: 'Roboto';
+.lorem {
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -239,142 +149,13 @@ letter-spacing: 0.03em;
 
 color: #757575;
 
+}
 
-  }
-
-  /* пунктуальність */
-
-  .punktual {
-    position: absolute;
-width: 270px;
-height: 16px;
-left: 515px;
-top: 774px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: #212121;
-  }
-
-  .lorem2 {
-    position: absolute;
-width: 270px;
-height: 75px;
-left: 515px;
-top: 800px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: #757575;
-
-  }
-
-  /* планування */
+/* section 3 */
 
 
-  .plan {
-    position: absolute;
-width: 270px;
-height: 16px;
-left: 815px;
-top: 774px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: #212121;
-  }
-
-  .lorem3 {
-    position: absolute;
-width: 270px;
-height: 75px;
-left: 815px;
-top: 800px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: #757575;
-
-
-  }
-
-  /* сучасні технології */
-
-  .modern {
-    position: absolute;
-width: 270px;
-height: 16px;
-left: 1116px;
-top: 774px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: #212121;
-
-
-  }
-
-  .lorem4 {
-    position: absolute;
-width: 270px;
-height: 75px;
-left: 1115px;
-top: 800px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
-
-letter-spacing: 0.03em;
-
-color: #757575;
-  }
-
-  /* чим ми займаэмось */
-
-  .zayman {
-    position: absolute;
-width: 366px;
-height: 42px;
-left: 617px;
-top: 969px;
-
-font-family: 'Roboto';
+.zayman {
+    font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -384,6 +165,107 @@ letter-spacing: 0.03em;
 
 color: #212121;
 
-  }
+}
 
-  
+.image-section-3 {
+    width: 370px;
+    height: 294px;
+}
+
+/* section-4 */
+
+.our-team {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+.team-img {
+    width: 270px;
+height: 260px;
+}
+.team-title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.team-section {
+    background: #F5F4FA;
+}
+
+.card {
+    width: 270px;
+height: 368px;
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
+.professions {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+    
+}
+
+
+/* FOOTER   */
+
+.address-info {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+}
+
+.footer {
+    background: #2F303A;
+}
+
+.studio-2 {
+    color: white;
+}
+
+.footer-last-bars {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
