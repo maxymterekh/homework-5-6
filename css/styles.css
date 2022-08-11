@@ -52,6 +52,10 @@ letter-spacing: 0.02em;
 color: #212121;
 }
 
+.nav-item:hover {
+    color: cadetblue;
+}
+
 .em, .phone {
     font-family: 'Roboto';
 font-style: normal;
@@ -65,6 +69,13 @@ color: #757575;
 
 }
 
+.em:hover {
+    color: cadetblue;
+}
+
+.phone:hover{
+    color: cadetblue;
+}
 
 /* МЕЙН */
 /* section 1 */
