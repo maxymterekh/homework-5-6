@@ -1,5 +1,25 @@
 
      /* ХЕДЕР */
+
+     .header {
+           display: flex;
+           
+           
+
+     }
+
+     .web-studio-header {
+        margin-top: 25px;
+        margin-left: 215px;
+        margin-right: 93px;
+        margin-bottom: 25px;
+        
+     }
+
+     .nav-item  {
+        margin-top: 32px;
+        margin-bottom: 32px;
+     }
 .web {
     font-family: 'Raleway';
 font-style: normal;
@@ -11,6 +31,7 @@ line-height: 31px;
 letter-spacing: 0.03em;
 
 color: #2196F3;
+text-decoration: none;
 
 
 }
@@ -31,6 +52,17 @@ color: #000000;
     color: green;
 } */
 
+/* .header-list-1 {
+    display: flex;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.header-list-2{
+    display: flex;
+    justify-content: end;
+   
+} */
+
 .nav-li {
     font-family: 'Roboto';
 font-style: normal;
@@ -41,15 +73,21 @@ letter-spacing: 0.02em;
 
 color: white;
 }
+
+
+
 .nav-item {
     font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
+margin-right: 55px;
 
 color: #212121;
+text-decoration: none;
+ align-items: center;
 }
 
 .nav-item:hover {
@@ -65,8 +103,13 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #757575;
+text-decoration: none;
+align-items: center;
 
 
+}
+.em {
+    margin-right: 50px;
 }
 
 .em:hover {
@@ -132,9 +175,15 @@ border: 0;
  
 
 color: white;
-
-    
 }
+
+.section-1-list {
+    display: flex;
+}
+    
+
+
+
 .skills-title {
     font-family: 'Roboto';
 font-style: normal;
