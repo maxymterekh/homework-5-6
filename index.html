@@ -15,7 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
 <!-- <link rel="stylesheet" href="css/reset.css"> -->
-<link rel="stylesheet" href="https://cdnjs.com/libraries/modern-normalize">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Webstudio</title>
 
@@ -24,16 +24,16 @@
 
     
     <header class="header">
-        <span class="web-studio-header">
-        <a href="/" class ="web">Web<span class="studio">Studio</span> </a></span>
         
         <nav>
+          
+            <a href="/" class ="web">Web<span class="studio">Studio</span> </a>
             <ul class="header-list-1">
                 <li class="nav-li">
                     <a class="nav-item" href="studia">Студія</a>
                 </li>
                 <li class="nav-li">
-                    <a  class="nav-item" href="portfolio"> Портфоліо</a>
+                    <a  class="nav-item" href="./portfolio/portfolio.html"> Портфоліо</a>
                 </li>
                 <li class="nav-li">
                     <a class="nav-item" href="contacts">Контакти</a>
@@ -82,7 +82,7 @@
      <section class="section-2">
      <h2 class="our">Наші вміння</h2>
      <ul class="section-1-list">
-        <li class="skills-li">
+        <li class="skills-li-details">
             <h3 class="skills-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet necessitatibus tenetur enim similique veniam?</p>
 
@@ -115,15 +115,15 @@
 
      <!-- Чим ми займаємось -->
 
-     <section>
+     <section class="section-images">
        <h2 class="zayman">Чим ми займаємось</h2>
        <ul >
         <li class="nav-li">
-          <img src="images/img.png" alt="photo-1">
+          <img class="image-section-act" src="images/img.png" alt="photo-1">
         </li>
 
         <li class="nav-li">
-          <img src="images/box2.png" alt="photo-2">
+          <img class="image-section-3" src="images/box2.png" alt="photo-2">
         </li>
 
         <li class="nav-li">
@@ -137,9 +137,9 @@
      <section class="team-section">
       <h2 class="our-team">Наша команда</h2>
 
-      <ul>
+      <ul class="team-list">
         <li class="nav-li" >
-          <section class="card">
+          <section class="card-igor">
         <img class="team-img" src="images/img.jpg" alt="team-1">
         <h3 class="team-title">Ігор Дем'яненко</h3>
         <p class="professions">Product Designer</p>
@@ -185,7 +185,7 @@
     <!-- футер -->
 
     <footer class="footer">
-       <h2 class="web">Web<span class="studio-2">Studio</span></h2>
+       <h2 class="web-2">Web<span class="studio-2">Studio</span></h2>
        <h3 class="address-info">м. Київ, пр-т Лесі Українки, 26</h3>
        <address class="footer-last-bars">info@example.com</address>
        
