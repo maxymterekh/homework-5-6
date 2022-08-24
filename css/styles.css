@@ -1,5 +1,14 @@
 
-     /* ХЕДЕР */
+    
+    .container {
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* ХЕДЕР */
 
      
 
@@ -10,10 +19,9 @@
      }
 .web {
     font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2;
 /* identical to box height */
 
 letter-spacing: 0.03em;
@@ -21,7 +29,7 @@ letter-spacing: 0.03em;
 color: #2196F3;
 text-decoration: none;
 margin-top: 25px;
-        margin-left: 215px;
+        
         margin-right: 93px;
         margin-bottom: 25px;
 
@@ -29,10 +37,9 @@ margin-top: 25px;
 }
 .studio {
     font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2;
 /* identical to box height */
 
 letter-spacing: 0.03em;
@@ -59,10 +66,9 @@ color: #000000;
 
 .nav-li {
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 
 color: white;
@@ -76,7 +82,7 @@ display: inline;
 
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 margin-right: 55px;
 
@@ -91,21 +97,36 @@ text-decoration: none;
 
 .em, .phone {
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 
 color: #757575;
 text-decoration: none;
 align-items: center;
+display: block;
+ margin-top: 30px;
+ 
 
 
 }
+
 .em {
     margin-right: 50px;
+    margin-left: 335px;
+    
+    
+    
 }
+
+
+   
+.phone {
+    
+}
+
+
 
 .em:hover {
     color: cadetblue;
@@ -119,16 +140,15 @@ align-items: center;
 /* section 1 */
 .section-1 {
     background-color:  #2F303A;
+     
     
-
 }
 
 .effect-bis {
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 padding: 218px 495px 262px 409px;
 /* or 136% */
 
@@ -137,14 +157,16 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 
 color: #FFFFFF;
+display: block;
+margin-right: auto;
+margin-left: auto;
 
 }
 .btn {
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.9;
 /* identical to box height, or 188% */
 
 
@@ -183,7 +205,7 @@ margin-bottom: 94px;
 
 .skills-li-details {
     margin-right: 30px;
-    margin-left:50px ;
+    
     color: #F5F4FA;
     margin-top: 94px;
     margin-bottom: 94px;
@@ -198,10 +220,9 @@ margin-bottom: 94px;
 
 .skills-title {
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
@@ -211,10 +232,9 @@ color: #212121;
 
 .lorem {
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 /* or 171% */
 
 letter-spacing: 0.03em;
@@ -228,7 +248,6 @@ color: #757575;
 
 .zayman {
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -244,6 +263,9 @@ margin-top : 92px;
 
 
 }
+.image-list {
+    display: flex;
+}
 
 .image-section-3 {
     width: 370px;
@@ -254,7 +276,7 @@ margin-top : 92px;
 .image-section-act {
     width: 370px;
     height: 294px;
-    margin-left: 300px;
+    
     margin-right: 30px;
     margin-bottom: 102px;
 }
@@ -264,7 +286,6 @@ margin-top : 92px;
 
 .our-team {
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -288,7 +309,6 @@ height: 260px;
 }
 .team-title {
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
@@ -311,7 +331,7 @@ color: #212121;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin-right: 30px;
-    margin-left: 300px;
+    
     margin-bottom: 94px;
 }
 
@@ -329,10 +349,9 @@ margin-bottom: 94px;
 
 .professions {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     /* identical to box height */
     
     text-align: center;
@@ -347,16 +366,15 @@ margin-bottom: 94px;
 
 .address-info {
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.5;
 /* or 171% */
 
 letter-spacing: 0.03em;
 
 color: #FFFFFF;
-margin-left: 215px;
+
 
 }
 
@@ -368,14 +386,14 @@ margin-left: 215px;
 
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2 ;
 /* identical to box height */
 
 letter-spacing: 0.03em;
 
 color: #2196F3;
 text-decoration: none;
-margin-left: 215px;
+
 padding-top: 60px;
 
 }
@@ -386,15 +404,16 @@ padding-top: 60px;
 
 .footer-last-bars {
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 /* or 171% */
 
 letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
-margin-left: 215px;
+
+display: block;
+text-decoration: none;
 
 }
