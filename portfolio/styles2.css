@@ -1,53 +1,34 @@
 
-  .container {
-        width: 1200px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
-  }
-  
-  
-  
-  /* ХЕАДЕР */
+   .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
 
-  nav {
-    display: flex;
-    justify-content: center;
-  }
+ul  {
+    padding: 0;
+    list-style: none;
 
-.web-studio-header {
-    
-    
-    margin-top: 50px;
-    
-    
- }
- .nav-item-1{
-    font-family: 'Roboto';
+}
 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    margin-right: 55px;
-    
-    color: #212121;
-    text-decoration: none;
-    align-items: center;
-    display: block;
-    margin-top: 30px;
-    margin-left: 93px;
-    
+ h1, h2 {
+    margin: 0;
+    padding: 0;
+}
 
- }
+/* ХЕДЕР */
 
- .nav-item-1:hover {
-    color: cadetblue;
- }
+
+
+ 
+
+ 
  .nav-item  {
-    margin-top: 32px;
-    margin-bottom: 32px;
+    /* margin-top: 32px;
+    margin-bottom: 32px; */
  }
 .web {
 font-family: 'Raleway';
@@ -60,6 +41,10 @@ letter-spacing: 0.03em;
 
 color: #2196F3;
 text-decoration: none;
+/* margin-top: 25px; */
+    
+    /* margin-right: 93px; */
+    /* margin-bottom: 25px; */
 
 
 }
@@ -73,25 +58,31 @@ line-height: 1.2;
 letter-spacing: 0.03em;
 
 color: #000000;
+margin-right: 93px;
 
 }
 
 
 .header-list-1 {
 display: flex;
-margin-top: 32px;
-margin-bottom: 32px;
+
 }
 .header-list-2{
 display: flex;
-
+justify-content: end;
+margin-left: auto;
 
 }
 
+nav {
+display: flex;
+height: 80px;
+
+align-items: center;
+}
 
 .nav-li {
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -99,6 +90,7 @@ letter-spacing: 0.02em;
 
 color: white;
 display: inline;
+margin-right: 54px;
 }
 
 
@@ -110,16 +102,12 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-margin-right: 55px;
+/* margin-right: 55px; */
 
 color: #212121;
 text-decoration: none;
 align-items: center;
-display: block;
-margin-top: 30px;
-
 }
-
 
 .nav-item:hover {
 color: cadetblue;
@@ -127,7 +115,6 @@ color: cadetblue;
 
 .em, .phone {
 font-family: 'Roboto';
-
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -136,18 +123,28 @@ letter-spacing: 0.02em;
 color: #757575;
 text-decoration: none;
 align-items: center;
+display: block;
+/* margin-top: 30px; */
+
 
 
 }
 
-.em , .phone {
-  display: block;
-  margin-top: 45px;
-}
 .em {
-margin-right: 50px;
-margin-left: 335px;
+/* margin-right: 50px; */
+/* margin-left: 335px; */
+
+
+
 }
+
+
+
+.phone {
+
+}
+
+
 
 .em:hover {
 color: cadetblue;
@@ -156,6 +153,7 @@ color: cadetblue;
 .phone:hover{
 color: cadetblue;
 }
+
 
 /* МЕЙН */
 
@@ -205,9 +203,7 @@ color: cadetblue;
     flex-wrap: wrap;
   }
 
-  .card-item {
-    list-style: none;
-  }
+ 
   .professions {
     font-family: 'Roboto';
     font-weight: 400;
@@ -244,6 +240,8 @@ margin-top: 34px;
 
 }
 
+
+
 .card-first {
     width: 370px;
 height: 404px;
@@ -266,29 +264,29 @@ margin-top: 34px;
 /* ФУтер */
 
 .address-info {
-    font-family: 'Roboto';
-font-style: normal;
+  font-family: 'Roboto';
 font-weight: 400;
 font-size: 14px;
-line-height: 1.7;
+line-height: 1.5;
 /* or 171% */
 
 letter-spacing: 0.03em;
 
 color: #FFFFFF;
+margin-bottom: 9px;
 
 
 }
 
 .footer {
-    background: #2F303A;
+  background: #2F303A;
 }
 .web-2 {
-    font-family: 'Raleway';
+  font-family: 'Raleway';
 
 font-weight: 700;
 font-size: 26px;
-line-height: 1.2;
+line-height: 1.2 ;
 /* identical to box height */
 
 letter-spacing: 0.03em;
@@ -297,16 +295,20 @@ color: #2196F3;
 text-decoration: none;
 
 padding-top: 60px;
+margin-bottom: 20px;
 
 }
 
 .studio-2 {
-    color: white;
+  color: white;
 }
 
-.footer-last-bars {
-    font-family: 'Roboto';
-font-style: normal;
+.footer-email {
+  margin-bottom: 9px;
+}
+
+.footer-email, .footer-phone {
+  font-family: 'Roboto';
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
@@ -316,9 +318,13 @@ letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
 
+display: block;
+text-decoration: none;
+
 
 }
 
 
-
-
+.footer-phone {
+  padding-bottom:60px ;
+}
