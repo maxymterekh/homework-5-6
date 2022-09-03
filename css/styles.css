@@ -34,7 +34,7 @@ body {
         /* margin-top: 32px;
         margin-bottom: 32px; */
      }
-.web {
+.header-logo {
     font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
@@ -52,7 +52,7 @@ text-decoration: none;
 
 
 }
-.studio {
+.logo-span {
     font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
@@ -67,11 +67,11 @@ margin-right: 93px;
 }
 
 
-.header-list-1 {
+.header-list-pages {
     display: flex;
   
 }
-.header-list-2{
+.header-list-info{
     display: flex;
     justify-content: end;
     margin-left: auto;
@@ -86,7 +86,7 @@ margin-right: 93px;
  }
 
 .nav-li {
-    font-family: 'Roboto';
+    
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -100,7 +100,8 @@ margin-right: 54px;
 
 
 .nav-item {
-    font-family: 'Roboto';
+    
+
 
 font-weight: 500;
 font-size: 14px;
@@ -118,7 +119,7 @@ align-items: center;
 }
 
 .em, .phone {
-    font-family: 'Roboto';
+    
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -155,15 +156,41 @@ display: block;
 }
 
 /* МЕЙН */
-/* section 1 */
-.section-1 {
+/* hero section   */
+.hero-section {
+
+    margin-left: auto;
+    margin-right: auto;
     background-color:  #2F303A;
+
+
+    background-image:
+     linear-gradient(
+        to right,
+         rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)), 
+
+          url(../images/Img\ \(12\).png);
+    
+    
+   
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600;
+    width: 1600;
+    
+
+    
      
     
 }
 
-.effect-bis {
-    font-family: 'Roboto';
+
+
+.hero-title {
+    
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -198,8 +225,8 @@ margin-left: auto;
     padding-bottom: 182px;
 }
 
-.btn {
-    font-family: 'Roboto';
+.hero-btn {
+    
 font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
@@ -227,13 +254,13 @@ background: #2196F3;
 
 
 }
-/* section 2 */
+/* skills-section */
 
 
 
 
 
-.our {
+.skills-main-title {
     color: #FFFFFF;
 }
 .skills-li {
@@ -263,7 +290,7 @@ margin-right: 30px;
 
 
 
-.section-1-list {
+.skills-list {
     display: flex;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -274,7 +301,7 @@ margin-right: 30px;
 
 
 .skills-title {
-    font-family: 'Roboto';
+    
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -285,8 +312,10 @@ color: #212121;
 
 }
 
-.lorem {
-    font-family: 'Roboto';
+    
+
+.skills-description {
+    
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
@@ -301,8 +330,8 @@ color: #757575;
 /* section 3 */
 
 
-.zayman {
-    font-family: 'Roboto';
+.images-title {
+   
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -330,14 +359,14 @@ margin-bottom: 50px;
     margin-right: 0;
 }
 
-.image-section-3 {
+.picture {
     width: 370px;
     height: 294px;
     margin-right: 30px; 
     
     
 }
-.image-section-act {
+.picture {
     width: 370px;
     height: 294px;
     
@@ -350,8 +379,8 @@ margin-bottom: 50px;
 /* section-4 */
 
 
-.our-team {
-    font-family: 'Roboto';
+.team-main-title {
+    
 font-weight: 700;
 font-size: 36px;
 line-height: 42px;
@@ -379,7 +408,7 @@ margin-bottom: 50px;
 height: 260px;
 }
 .team-title {
-    font-family: 'Roboto';
+    
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
@@ -399,7 +428,7 @@ color: #212121;
 }
 
 .card-li {
-    font-family: 'Roboto';
+   
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -410,7 +439,7 @@ display: inline;
 }
 
 .pictures-li {
-    font-family: 'Roboto';
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -450,7 +479,7 @@ margin-right: 30px;
 }
 
 .professions {
-    font-family: 'Roboto';
+   
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
@@ -467,7 +496,7 @@ margin-right: 30px;
 /* FOOTER   */
 
 .address-info {
-    font-family: 'Roboto';
+    
 font-weight: 400;
 font-size: 14px;
 line-height: 1.5;
@@ -484,7 +513,7 @@ margin-bottom: 9px;
 .footer {
     background: #2F303A;
 }
-.web-2 {
+.footer-logo {
     font-family: 'Raleway';
 
 font-weight: 700;
@@ -502,7 +531,7 @@ margin-bottom: 20px;
 
 }
 
-.studio-2 {
+.footer-span-logo {
     color: white;
 }
 
@@ -511,7 +540,7 @@ margin-bottom: 20px;
 }
 
 .footer-email, .footer-phone {
-    font-family: 'Roboto';
+   
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
