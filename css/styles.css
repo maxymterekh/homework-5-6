@@ -264,6 +264,12 @@ background: #2196F3;
     color: #FFFFFF;
 }
 .skills-li {
+
+    background: #F5F4FA;
+border-radius: 4px;
+    width: 270px;
+    height: 120px;
+
  
 
 color: white;
@@ -287,7 +293,50 @@ margin-right: 30px;
     
 }
 
+.skills-li:nth-child(1)::before {
+content: url(../images/antenna\ 1\ \(2\).png);
+display: block;
+margin-bottom: 30px;
+text-align: center;
+padding-top: 25px;
 
+
+
+
+}
+
+.skills-li:nth-child(2)::before{
+content: url(../images/clock\ 1\ \(1\).png);
+display: block;
+margin-bottom: 30px;
+text-align: center;
+padding-top: 25px;
+
+}
+
+.skills-li:nth-child(3)::before{
+    content: url(../images/diagram\ 1\ \(1\).png);
+    display: block;
+margin-bottom: 30px;
+text-align: center;
+padding-top: 25px;
+
+
+    }
+ .skills-li:nth-child(4)::before{
+ content: url(../images/astronaut\ 1\ \(1\).png);
+ display: block;
+margin-bottom: 30px;
+text-align: center;
+padding-top: 25px;
+  }
+
+
+   
+
+.box {
+   
+}
 
 
 .skills-list {
@@ -329,6 +378,10 @@ color: #757575;
 
 /* section 3 */
 
+
+.section-images {
+    margin-top: 94px;
+}
 
 .images-title {
    
