@@ -8,16 +8,19 @@
    
 }
 
+a {
+  text-decoration: none;
+}
+
 ul  {
-    padding: 0;
-    list-style: none;
-
+  list-style: none;
+  padding: 0;
+  
 }
 
- h1, h2 {
-    margin: 0;
-    padding: 0;
-}
+
+
+
 
 /* ХЕДЕР */
 
@@ -26,133 +29,115 @@ ul  {
  
 
  
- .nav-item  {
-    /* margin-top: 32px;
-    margin-bottom: 32px; */
- }
-.web {
-font-family: 'Raleway';
+.header-logo {
+  font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
-/* identical to box height */
-
 letter-spacing: 0.03em;
-
 color: #2196F3;
 text-decoration: none;
-/* margin-top: 25px; */
-    
-    /* margin-right: 93px; */
-    /* margin-bottom: 25px; */
-
-
 }
-.studio {
-font-family: 'Raleway';
+
+
+.logo-span {
+  font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
-/* identical to box height */
-
 letter-spacing: 0.03em;
-
 color: #000000;
 margin-right: 93px;
-
 }
 
 
-.header-list-1 {
-display: flex;
+.header-list-pages {
+  display: flex;
 
 }
-.header-list-2{
-display: flex;
-justify-content: end;
-margin-left: auto;
+
+.header-list-info{
+  display: flex;
+  justify-content: end;
+  margin-left: auto;
 
 }
 
 nav {
-display: flex;
-height: 80px;
-
-align-items: center;
+  display: flex;
+  height: 80px;
+  align-items: center;
 }
 
-.nav-li {
-font-family: 'Roboto';
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-
-color: white;
-display: inline;
+.nav-item  {
 margin-right: 54px;
 }
 
-
-
-.nav-item {
-font-family: 'Roboto';
-
+.nav-link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-/* margin-right: 55px; */
-
 color: #212121;
-text-decoration: none;
 align-items: center;
 }
 
-.nav-item:hover {
-color: cadetblue;
+.nav-link:last-child {
+margin-right: 0;
+}
+
+
+.nav-link:hover {
+  color: #2196F3;
+}
+
+.nav-contact {
+ margin-right: 30px;
 }
 
 .em, .phone {
-font-family: 'Roboto';
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: #757575;
 text-decoration: none;
 align-items: center;
 display: block;
-/* margin-top: 30px; */
-
-
-
 }
-
-.em {
-/* margin-right: 50px; */
-/* margin-left: 335px; */
-
-
-
-}
-
-
-
-.phone {
-
-}
-
-
 
 .em:hover {
-color: cadetblue;
+  color: #2196F3;
 }
 
 .phone:hover{
-color: cadetblue;
+  color: #2196F3;
 }
+
+
+.email-svg {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.email-svg:hover {
+  fill: #2196F3;
+}
+
+
+.phone-svg {
+  width: 10px;
+  height: 16px;
+  fill: #757575;
+}
+
+.phone-svg:hover {
+  fill: #2196F3;
+}
+
+
 
 
 /* МЕЙН */
@@ -162,11 +147,12 @@ color: cadetblue;
    .buttons-list {
     display: flex;
     justify-content: center;
+    margin-top: 94px;
    }
    .btn-item {
     margin-right: 8px;
     list-style: none;
-    margin-top: 94px;
+    
    }
    .btn-item-1 {
     
@@ -186,6 +172,7 @@ color: cadetblue;
     
     color: black;
     border: 0;
+    padding: 6px 10px 6px 10px;
 
 
    }
@@ -201,6 +188,9 @@ color: cadetblue;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    /* margin-bottom: 94px; */
+    padding-top: 34px;
+    padding-bottom: 94px;
   }
 
  
@@ -209,8 +199,6 @@ color: cadetblue;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
-    /* identical to box height */
-    
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -223,10 +211,9 @@ color: cadetblue;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.2;
-/* identical to box height */
-
 text-align: center;
 letter-spacing: 0.03em;
+margin-top: 20px;
 
 color: #212121;
 }
@@ -234,32 +221,41 @@ color: #212121;
     width: 370px;
 height: 404px;
 background: #FFFFFF;
-border: 1px solid #EEEEEE;
 margin-right: 30px;
 margin-top: 34px;
 
 }
 
+.card:nth-child(1) {
+  margin-top: 0;
+}
+
+.card:nth-child(2) {
+  margin-top: 0;
+}
 
 
-.card-first {
-    width: 370px;
-height: 404px;
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-margin-right: 30px;
-margin-top: 34px;
+
+
+.card:nth-child(3) {
+  margin-right: 0;
+  margin-top: 0;
 
 }
 
+.card:nth-child(6) {
+  margin-right: 0;
+  
+}
+
+.card:nth-child(9) {
+  margin-right: 0;
+  
+}
 
 
     
    
-    
-
-
-
 
 /* ФУтер */
 
