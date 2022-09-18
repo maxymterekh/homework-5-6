@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "homework-5-6",
+			"path": ".."
+		},
+		{
+			"name": "images2",
+			"path": "..\\..\\images2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "homework-5-6"
+	}
+}
