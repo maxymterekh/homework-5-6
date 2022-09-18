@@ -74,11 +74,14 @@ margin-right: 0;
     color: #2196F3;
 }
 
-.nav-contact {
+.contacts-item {
    margin-right: 30px;
+   /* fill: #2196F3;
+   color: #2196F3; */
+ 
 }
 
-.em, .phone {
+.contacts-link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -87,38 +90,44 @@ color: #757575;
 text-decoration: none;
 align-items: center;
 display: block;
+display: flex;
+align-items: center;
+
 }
 
-.em:hover {
+.contacts-link:hover {
     color: #2196F3;
+    fill: #2196F3;
 }
 
-.phone:hover{
-    color: #2196F3;
-}
+
 
 
 .email-svg {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    fill: #757575;
+    fill: currentColor;
+
 }
 
-.email-svg:hover {
+/* .email-svg:hover {
     fill: #2196F3;
-}
+} */
+
+
 
 
 .phone-svg {
     width: 10px;
     height: 16px;
-    fill: #757575;
+    fill: currentColor;
+    margin-right:10px ;
 }
 
-.phone-svg:hover {
-    fill: #2196F3;
-}
+
+
+
 
 
 
@@ -183,6 +192,8 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 30px;
 background: #2196F3;
+border: 0;
+border-radius: 4px;
 }
 
 
@@ -362,6 +373,7 @@ border-radius: 0px 0px 4px 4px;
 margin-right: 30px;
 padding-bottom: 30px;
 
+
 }
 
 .card:last-child {
@@ -376,12 +388,156 @@ padding-bottom: 30px;
     letter-spacing: 0.03em;
     color: #757575;
     margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+
+.team-svg {
+width: 20px;
+height: 20px;
+
+
+align-items: center;
+/* fill: currentColor;
+fill: #757575; */
+}
+
+
+    
+
+
+
+
+.team-links {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #757575;
+}
+
+.team-links:hover {
+    /* width: 44px;
+    height: 44px; */
+    
+   fill: #F5F4FA;
+    align-items: center;
+    border-radius: 20px;
+    background: #2196F3;
+    padding: 12px;
+   
 }
 
 
 
-/* FOOTER   */
 
+.svg-item {
+    margin-right: 10px;
+  
+}
+
+.svg-item:nth-child(4 ) {
+    margin-right: 0;
+}
+
+.svg-item:nth-child(8 ) {
+    margin-right: 0;
+}
+
+.svg-item:nth-child(12 ) {
+    margin-right: 0;
+}
+
+.svg-item:nth-child(16 ) {
+    margin-right: 0;
+}
+ 
+
+
+
+.team-svg-list {
+    display: flex;
+    justify-content: center;
+    
+
+   
+   
+
+}
+
+
+
+/* Steady Clients  */
+
+
+.steady-clients {
+    padding: 94px 0px 94px 0px;
+}
+
+.clients-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 50px;
+    
+    
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+}
+
+.client-item {
+
+    margin-right: 30px;
+    
+    }
+
+    .client-item:last-child {
+        margin-right: 0px;
+    }
+
+
+.client-link {
+
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+   border-radius: 4px;
+   fill: #AFB1B8;
+   /* padding: 20px 63px 20px 63px; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.client-link:hover {
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+
+}
+
+.client-svg {
+    width: 44px;
+    height: 49px;
+    /* fill: #757575; */
+
+
+}
+
+
+
+
+/* FOOTER   */
+ footer .container {
+    display: flex;
+   
+ }
 
 
 .address-info {
@@ -393,11 +549,13 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 margin-bottom: 9px;
 font-style: normal;
+margin-right: 156px;
 
 }
 
 .footer {
     background: #2F303A;
+    padding-bottom:60px ;
 }
 .footer-logo {
     font-family: 'Raleway';
@@ -414,6 +572,65 @@ margin-bottom: 20px;
 
 .footer-span-logo {
     color: white;
+}
+
+.footer-svg {
+    width: 20px;
+height: 20px;
+
+fill: #FFFFFF ;
+align-items: center;
+border-radius: 20px;
+background: rgba(255, 255, 255, 0.1);
+padding: 12px;
+
+}
+.footer-svg:hover {
+    width: 20px;
+    height: 20px;
+    
+    fill:  white;
+    align-items: center;
+    border: 20px #2196F3 ;
+    border-radius: 20px;
+    background: #2196F3;
+    padding: 12px;
+}
+
+
+.footer-svg-item {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+
+.footer-side-title {
+    font-family: 'Roboto';
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    /* margin-left: 156px; */
+    padding-top: 65px;
+    
+    
+    
+}
+
+.footer-title-list {
+    display: flex;
+}
+
+.footer-svg-list {
+    display: flex;
+    
 }
 
 .footer-email {
@@ -434,5 +651,5 @@ text-decoration: none;
 
 
 .footer-phone {
-    padding-bottom:60px ;
+
 }

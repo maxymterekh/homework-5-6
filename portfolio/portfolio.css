@@ -53,14 +53,12 @@ margin-right: 93px;
 
 .header-list-pages {
   display: flex;
-
 }
 
 .header-list-info{
   display: flex;
   justify-content: end;
-  margin-left: auto;
-
+  margin-left: auto; 
 }
 
 nav {
@@ -91,11 +89,14 @@ margin-right: 0;
   color: #2196F3;
 }
 
-.nav-contact {
+.contacts-item {
  margin-right: 30px;
+ /* fill: #2196F3;
+ color: #2196F3; */
+
 }
 
-.em, .phone {
+.contacts-link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -104,38 +105,41 @@ color: #757575;
 text-decoration: none;
 align-items: center;
 display: block;
+display: flex;
+align-items: center;
+
 }
 
-.em:hover {
+.contacts-link:hover {
   color: #2196F3;
+  fill: #2196F3;
 }
 
-.phone:hover{
-  color: #2196F3;
-}
+
 
 
 .email-svg {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: #757575;
+  fill: currentColor;
+
 }
 
-.email-svg:hover {
+/* .email-svg:hover {
   fill: #2196F3;
-}
+} */
+
+
 
 
 .phone-svg {
   width: 10px;
   height: 16px;
-  fill: #757575;
+  fill: currentColor;
+  margin-right:10px ;
 }
 
-.phone-svg:hover {
-  fill: #2196F3;
-}
 
 
 
