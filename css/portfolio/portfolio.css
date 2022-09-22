@@ -1,0 +1,330 @@
+
+   .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+a {
+  text-decoration: none;
+}
+
+ul  {
+  list-style: none;
+  padding: 0;
+  
+}
+
+
+
+
+
+/* ХЕДЕР */
+
+
+
+ 
+
+ 
+.header-logo {
+  font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #2196F3;
+text-decoration: none;
+}
+
+
+.logo-span {
+  font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #000000;
+margin-right: 93px;
+}
+
+
+.header-list-pages {
+  display: flex;
+}
+
+.header-list-info{
+  display: flex;
+  justify-content: end;
+  margin-left: auto; 
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+
+.nav-item  {
+margin-right: 54px;
+}
+
+.nav-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+align-items: center;
+}
+
+.nav-link:last-child {
+margin-right: 0;
+}
+
+
+.nav-link:hover {
+  color: #2196F3;
+}
+
+.contacts-item {
+ margin-right: 30px;
+ /* fill: #2196F3;
+ color: #2196F3; */
+
+}
+
+.contacts-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+text-decoration: none;
+align-items: center;
+display: block;
+display: flex;
+align-items: center;
+
+}
+
+.contacts-link:hover {
+  color: #2196F3;
+  fill: #2196F3;
+}
+
+
+
+
+.email-svg {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+
+}
+
+/* .email-svg:hover {
+  fill: #2196F3;
+} */
+
+
+
+
+.phone-svg {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+  margin-right:10px ;
+}
+
+
+
+
+
+/* МЕЙН */
+
+   /* buttons list  */
+
+   .buttons-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+   }
+   .btn-item {
+    margin-right: 8px;
+    list-style: none;
+    
+   }
+   .btn-item-1 {
+    
+    margin-right: 8px;
+    list-style: none;
+    margin-top: 94px;
+   }
+   .btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: black;
+    border: 0;
+    padding: 6px 10px 6px 10px;
+
+
+   }
+
+  .btn:hover {
+    color: white;
+    background-color: #2196F3;
+  }
+    
+  /* Cards section  */
+
+  .cards-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-bottom: 94px; */
+    padding-top: 34px;
+    padding-bottom: 94px;
+  }
+
+ 
+  .professions {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+    
+}
+.team-title {
+    font-family: 'Roboto';
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+margin-top: 20px;
+
+color: #212121;
+}
+.card {
+    width: 370px;
+height: 404px;
+background: #FFFFFF;
+margin-right: 30px;
+margin-top: 34px;
+
+}
+
+.card:nth-child(1) {
+  margin-top: 0;
+}
+
+.card:nth-child(2) {
+  margin-top: 0;
+}
+
+
+
+
+.card:nth-child(3) {
+  margin-right: 0;
+  margin-top: 0;
+
+}
+
+.card:nth-child(6) {
+  margin-right: 0;
+  
+}
+
+.card:nth-child(9) {
+  margin-right: 0;
+  
+}
+
+
+    
+   
+
+/* ФУтер */
+
+.address-info {
+  font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.5;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+margin-bottom: 9px;
+
+
+}
+
+.footer {
+  background: #2F303A;
+}
+.web-2 {
+  font-family: 'Raleway';
+
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2 ;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+text-decoration: none;
+
+padding-top: 60px;
+margin-bottom: 20px;
+
+}
+
+.studio-2 {
+  color: white;
+}
+
+.footer-email {
+  margin-bottom: 9px;
+}
+
+.footer-email, .footer-phone {
+  font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+display: block;
+text-decoration: none;
+
+
+}
+
+
+.footer-phone {
+  padding-bottom:60px ;
+}
