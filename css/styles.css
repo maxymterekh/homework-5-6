@@ -585,26 +585,26 @@ background: rgba(255, 255, 255, 0.1);
 padding: 12px;
 
 }
-.footer-svg:hover {
-    width: 20px;
-    height: 20px;
-    
-    fill:  white;
-    align-items: center;
-    border: 20px #2196F3 ;
-    border-radius: 20px;
-    background: #2196F3;
-    padding: 12px;
-}
+
 
 
 .footer-svg-item {
     margin-top: 20px;
     margin-right: 10px;
+    
+    
 }
 
 
+.footer-links:hover {
+    
+    background-color: #2196F3;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
 
 
 .footer-side-title {
