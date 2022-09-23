@@ -209,6 +209,7 @@ border-radius: 4px;
 
 .skills-main-title {
     color: #FFFFFF;
+    display: none;
 }
 .skills-item {    
  width: 270px;
