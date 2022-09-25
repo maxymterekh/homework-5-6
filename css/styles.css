@@ -534,6 +534,8 @@ fill: #757575; */
 
 
 
+
+
 /* FOOTER   */
  footer .container {
     display: flex;
@@ -580,10 +582,9 @@ margin-bottom: 20px;
 height: 20px;
 
 fill: #FFFFFF ;
-align-items: center;
-border-radius: 20px;
-background: rgba(255, 255, 255, 0.1);
-padding: 12px;
+
+
+
 
 }
 
@@ -596,14 +597,26 @@ padding: 12px;
     
 }
 
+.footer-links {
+    padding: 12px;
+    fill: #FFFFFF ;
+    align-items: center;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 .footer-links:hover {
     
-    background-color: #2196F3;
-    border-radius: 20px;
-    display: flex;
+    fill: #F5F4FA;
     align-items: center;
-    justify-content: center;
+    border-radius: 20px;
+    background: #2196F3;
+    padding: 12px;
 
 }
 
