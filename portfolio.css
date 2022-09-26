@@ -206,7 +206,7 @@ align-items: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
+
     letter-spacing: 0.03em;
     
     color: #757575;
@@ -218,7 +218,6 @@ align-items: center;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.2;
-text-align: center;
 letter-spacing: 0.03em;
 margin-top: 20px;
 
@@ -269,44 +268,114 @@ border: 1px solid #EEEEEE;
 
 /* ФУтер */
 
+footer .container {
+  display: flex;
+ 
+}
+
+
 .address-info {
-  font-family: 'Roboto';
+  
 font-weight: 400;
 font-size: 14px;
 line-height: 1.5;
-/* or 171% */
-
 letter-spacing: 0.03em;
-
 color: #FFFFFF;
 margin-bottom: 9px;
-
+font-style: normal;
+margin-right: 156px;
 
 }
 
 .footer {
   background: #2F303A;
+  padding-bottom:60px ;
 }
-.web-2 {
+.footer-logo {
   font-family: 'Raleway';
-
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2 ;
-/* identical to box height */
-
 letter-spacing: 0.03em;
-
 color: #2196F3;
 text-decoration: none;
-
 padding-top: 60px;
 margin-bottom: 20px;
 
 }
 
-.studio-2 {
+.footer-span-logo {
   color: white;
+}
+
+.footer-svg {
+  width: 20px;
+height: 20px;
+
+fill: #FFFFFF ;
+
+
+
+
+}
+
+
+
+.footer-svg-item {
+  margin-top: 20px;
+  margin-right: 10px;
+  
+  
+}
+
+.footer-links {
+  padding: 12px;
+  fill: #FFFFFF ;
+  align-items: center;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.footer-links:hover {
+  
+  fill: #F5F4FA;
+  align-items: center;
+  border-radius: 20px;
+  background: #2196F3;
+  padding: 12px;
+
+}
+
+
+.footer-side-title {
+  font-family: 'Roboto';
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  /* margin-left: 156px; */
+  padding-top: 65px;
+  
+  
+  
+}
+
+.footer-title-list {
+  display: flex;
+}
+
+.footer-svg-list {
+  display: flex;
+  
 }
 
 .footer-email {
@@ -314,23 +383,18 @@ margin-bottom: 20px;
 }
 
 .footer-email, .footer-phone {
-  font-family: 'Roboto';
+ 
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
-/* or 171% */
-
 letter-spacing: 0.03em;
-
 color: rgba(255, 255, 255, 0.6);
-
 display: block;
 text-decoration: none;
-
 
 }
 
 
 .footer-phone {
-  padding-bottom:60px ;
+
 }
