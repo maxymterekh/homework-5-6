@@ -235,6 +235,11 @@ border: 1px solid #EEEEEE;
 
 }
 
+.card-text-box   {
+  padding-left: 24px;
+
+}
+
 .card:nth-child(1) {
   margin-top: 0;
 }
