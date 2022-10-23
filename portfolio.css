@@ -64,6 +64,8 @@ nav {
   padding-top: 30px;
 }
 
+
+
 .nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -231,12 +233,14 @@ transform: translateY(0);
 .card-img {
   width: 370px;
   height: 294px;
+  overflow: hidden;
   
 }
 
 .card-overlay {
   background: rgba(33, 150, 243, 0.9);
-
+   width: 322px;
+   height: 168px;
   position: absolute;
   display: block;
   left: 0;
@@ -392,7 +396,7 @@ footer .container {
 /* FEEDBACK SECTION   */
 
 .feedback-section {
-  padding: 63px 50px 0px 25px;
+  padding: 63px 0px 0px 25px;
  
 }
 
@@ -451,6 +455,7 @@ z-index: 1;
   margin-left: 12px;
   display: flex;
   justify-content: center;
+  vertical-align: middle;
   
 }
 
