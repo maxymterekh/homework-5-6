@@ -1,0 +1,47 @@
+/* Steady Clients  */
+.clients-section {
+    padding: 94px 0px 94px 0px;
+}
+.clients-section__title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 50px;
+    
+    
+}
+.clients-section__list {
+    display: flex;
+    justify-content: center;
+}
+.clients-section__item{
+    margin-right: 30px;
+    
+    }
+    .clients-section__item:last-child {
+        margin-right: 0px;
+    }
+.clients-section__link {
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+   border-radius: 4px;
+   fill: #AFB1B8;
+   /* padding: 20px 63px 20px 63px; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.clients-section__link:hover {
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+}
+.clients-section__svg {
+    width: 44px;
+    height: 49px;
+    /* fill: #757575; */
+}
