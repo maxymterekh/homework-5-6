@@ -1,6 +1,6 @@
 /* FOOTER   */
 footer .container {
-    @media screen and (min-width:480px) {
+    @media screen and (max-width:480px) {
         
     
     // display: flex;
@@ -10,13 +10,13 @@ footer .container {
  }
 
 .footer {
-    @media screen and (min-width:480px) {
+    @media screen and (max-width:480px) {
         
     width: 480px;
     }
 }
 .footer__address_info {
-    @media screen and (min-width:480px) {
+    @media screen and (max-width:480px) {
         
     
 font-weight: 400;
@@ -40,7 +40,7 @@ justify-content: center;
     
 }
 .footer-logo {
-    @media screen and (min-width:480px) {
+    @media screen and (max-width:480px) {
         
     font-family: 'Raleway';
 font-weight: 700;
@@ -93,7 +93,7 @@ fill: #FFFFFF ;
     padding: 12px;
 }
 .footer-socials__title {
-    @media screen and (min-width:480px) {
+    @media screen and (max-width:480px) {
         
     font-family: 'Roboto';
     font-weight: 700;
@@ -114,7 +114,7 @@ fill: #FFFFFF ;
 }
 
 .footer-socials { 
-    @media screen and (min-width:480px) {
+    @media screen and (max-width:480px) {
     padding-top: 60px;
     }
 }
@@ -130,7 +130,7 @@ fill: #FFFFFF ;
     margin-bottom: 9px;
 }
 .footer__email, .footer__phone {
-    @media screen and (min-width:480px) {
+    @media screen and (max-width:480px) {
         
    
 font-weight: 400;
@@ -146,7 +146,7 @@ text-align: center;
 /* footer section 3 */
 
 .feedback-section {
-    @media screen and (min-width:480px) {
+    @media screen and (max-width:480px) {
         
     padding: 63px 0px 0px 0px;
     
@@ -169,7 +169,7 @@ text-align: center;
 
 
 .feedback-list__input {
-    @media screen and (min-width:480px) {
+    @media screen and (max-width:480px) {
         
  width: 440px;
  height: 50px;
@@ -193,7 +193,7 @@ margin-left: auto;
   
 }
 .feedback-list__btn {
-    @media screen and (min-width:480px) {
+    @media screen and (max-width:480px) {
         
     padding: 10px 29px 10px 29px;
     background: #2196F3;
@@ -214,7 +214,7 @@ margin-left: auto;
 }
 
 .feedback-list__btn_text{
-    @media screen and (min-width:480px) {
+    @media screen and (max-width:480px) {
         
 display:block ;
  font-family: 'Roboto';

@@ -1,6 +1,6 @@
 
     .team-section__main_title {
-        @media screen and (min-width:480px){
+        @media screen and (max-width:480px){
             font-weight: 700;
             font-size: 28px;
             line-height: 1.14;
@@ -17,26 +17,26 @@
         
         }
         .team-section__list {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
             display: flex;
             
             flex-wrap: wrap;
             }
         }
         .team-section__list:last-child {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
             margin-bottom: 0;
             }
         }
 
         .team-section__image {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
             width: 450px;
             height: 460px;
             }
         }
         .team-section__title {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
         font-weight: 500;
         font-size: 16px;
         line-height: 19px;
@@ -47,7 +47,7 @@
             }
         }
         .team-section {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
             background: #F5F4FA;
             padding-top: 60px;
             padding-bottom: 60px;
@@ -55,7 +55,7 @@
             }
         }
         .team-section__card {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
         background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
@@ -66,12 +66,12 @@
         
         }
         .team-section__card:last-child {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
             margin-right: 0;
             }
         }
         .team-section__professions {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
             font-weight: 400;
             font-size: 16px;
             line-height: 1.2;
@@ -83,7 +83,7 @@
             }
         }
         .team-section__svg {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
         width: 20px;
         height: 20px;
         align-items: center;
@@ -93,7 +93,7 @@
         }
             
         .team-section__links {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
             padding: 12px;
             display: flex;
             align-items: center;
@@ -103,7 +103,7 @@
         }
         .team-section__links:hover {
          
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
            fill: #F5F4FA ;
             align-items: center;
             border-radius: 20px;
@@ -115,34 +115,34 @@
            
         }
         .team-section__svg_item {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
             margin-right: 10px;
             }
           
         }
         .team-section__svg_item:nth-child(4 ) {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
             margin-right: 0;
             }
         }
         .team-section__svg_item:nth-child(8 ) {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
                 margin-right: 0;
                 }
         }
         .team-section__svg_item:nth-child(12 ) {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
                 margin-right: 0;
                 }
         }
         .team-section__svg_item:nth-child(16 ) {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
                 margin-right: 0;
                 }
         }
          
         .team-section__svg-list {
-            @media screen and (min-width:480px){
+            @media screen and (max-width:480px){
             display: flex;
             justify-content: center;
             }
