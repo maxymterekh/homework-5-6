@@ -1,60 +1,86 @@
-.skills-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-.skills-section__main__title {
-    color: #FFFFFF;
-    display: none;
-}
-.skills-section__item {    
- width: 270px;
-color: white;
-margin-right: 30px;
-}
-.skills-section__item:last-child {
-    margin: 0;
-}
 
-.skills-section__item:before {
-    background: #F5F4FA;
-    border-radius: 4px;
-    display: block;
-padding-bottom: 25px;
-text-align: center;
-padding-top: 25px;
-}
-.skills-section__item:nth-child(1)::before {
-content: url(../images/antenna\ 1\ \(2\).png);
-}
-.skills-section__item:nth-child(2)::before{
-content: url(../images/clock\ 1\ \(1\).png);
-}
-.skills-section__item:nth-child(3)::before{
-    content: url(../images/diagram\ 1\ \(1\).png);
- }
- .skills-section__item:nth-child(4)::before{
- content: url(../images/astronaut\ 1\ \(1\).png);
-  }
-.skills-section__list {
+ 
+
+    .skills-section {
+        @media screen and (min-width:480px) {
+            padding-top: 94px;
+            padding-bottom: 94px;
+            width: 480px;
+        }
+      
+    }
+    .skills-section__main__title {
+        @media screen and (min-width:480px) {
+            color: #FFFFFF;
+            display: none;
+        }
+       
+    }
+    .skills-section__item {  
+        @media screen and (min-width:480px) {
+            width: 450px;
+            color: white;
+        }
+
+    }
+
+    
+    .skills-section__item:before {
+        @media screen and (min-width:480px) {
+            background: #F5F4FA;
+            border-radius: 4px;
+            display: block;
+        padding-bottom: 25px;
+        text-align: center;
+        padding-top: 25px;
+        }
+    
+    }
+    .skills-section__item:nth-child(1)::before {
+    content: url(../images/antenna\ 1\ \(2\).png);
+    }
+    .skills-section__item:nth-child(2)::before{
+    content: url(../images/clock\ 1\ \(1\).png);
+    }
+    .skills-section__item:nth-child(3)::before{
+        content: url(../images/diagram\ 1\ \(1\).png);
+     }
+     .skills-section__item:nth-child(4)::before{
+     content: url(../images/astronaut\ 1\ \(1\).png);
+      }
+    .skills-section__list {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        
+        
+    }
+        
+    .skills-section__title { 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    padding-top: 30px;
     display: flex;
-    list-style: none;
-}
+    margin-bottom: 10px;
     
-.skills-section__title { 
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;
-padding-top: 30px;
-margin-bottom: 10px;
-}
+    justify-content: center;
+  
+    }
+        
+    .skills-section__description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom: 30px;
+    }
+
+    .skills-section__description:last-child{
+        margin-bottom: 0;
+    }
     
-.skills-section__description{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-color: #757575;
-}
