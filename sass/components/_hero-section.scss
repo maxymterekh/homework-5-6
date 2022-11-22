@@ -1,14 +1,9 @@
 
 
  
-    .hero-section{
-        @media screen and (max-width:480px ) {
-            width: 480px;
-        }
-        
-    }
+  
     .hero-section {
-        @media screen and (max-width:480px ) {
+      
              // margin-left: auto;
         // margin-right: auto;
         background-color:  #2F303A;
@@ -22,17 +17,31 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: 600;
-        width: 480px;
-        padding-top: 118px;
-        padding-bottom: 118px;
         
+      @media screen and (max-width:480px) {
+        padding-top: 118px;
+            padding-bottom: 118px;
+      }
+        
+        
+
+        @media screen and (min-width:480px) {
+            width: 480px;
+            
+            padding-top: 118px;
+            padding-bottom: 118px;
         }
+
+        @media screen and (min-width:768px) {
+            width: 768px;
+          
+        }
+
     
     }
     .hero-section__title {
-        @media screen and (max-width:480px ) {
-            font-weight: 900;
+
+        font-weight: 900;
             font-size: 26px;
             line-height: 1.6;
             text-align: center;
@@ -42,27 +51,26 @@
             display: block;
             margin-right: auto;
             margin-left: auto;
-        }
+     
 
     }
     .hero-section__btn {  
-        @media screen and (max-width:480px ) {
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 1.9;
-            width: 200px;
-            height: 50px;
-            text-align: center;
-            align-items: center;
-            color: #FFFFFF;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 30px;
-            background: #2196F3;
-            border: 0;
-            border-radius: 4px;
-        }
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        align-items: center;
+        color: #FFFFFF;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        background: #2196F3;
+        border: 0;
+        border-radius: 4px;
+       
    
     }
     

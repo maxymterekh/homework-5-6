@@ -66,7 +66,7 @@
               
             </li>
           </ul>
-          <button class="header-nav__settings" type="button"  ><svg class="header-settings__svg"><use href="./images/symbol-defs.svg#settings"></use></svg></button>
+          <button  class="header-nav__settings" type="button"  ><svg class="header-settings__svg"><use href="./images/symbol-defs.svg#settings"></use></svg></button>
 
         </nav>
       </div>
@@ -77,7 +77,7 @@
       <!-- ефективні рішення  -->
       <section class="hero-section">
         <h1 class="hero-section__title">
-          ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br/>
+          ЕФЕКТИВНІ РІШЕННЯ<br> ДЛЯ 
           ВАШОГО БІЗНЕСУ
         </h1>
 
@@ -406,6 +406,35 @@
    
       </section>
       </div>
+
+      <div  class="mobile-backdrop is-hidden">
+      <section class="mobile-form">
+        
+        <button data-close-mobile-modal  class="mobile__close_btn"><svg  class="mobile__close_svg"><use href="./images/symbol-defs.svg#close-btn"></use></svg> </button>
+        <ul class="mobile-pages">
+          <li class="mobile-pages__item">Студія</li>
+          <li class="mobile-pages__item">Портфоліо</li>
+          <li class="mobile-pages__item">Контакти</li>
+        </ul>
+          <ul class="mobile-contacts">
+             <li class="mobile-contcts__item">+38 096 111 11 11</li>
+             <li class="mobile-contcts__item">info@devstudio.com</li>
+          </ul>
+
+
+          <ul class="mobile-socials">
+            <li class="mobile-socials__item"><a class="mobile-socials__link" href="/">Instagram</a></li>
+            <li class="mobile-socials__item"><a class="mobile-socials__link" href="/">Twitter</a></li>
+            <li class="mobile-socials__item"><a class="mobile-socials__link" href="/">Facebook</a></li>
+            <li class="mobile-socials__item"><a class="mobile-socials__link" href="/">Linkedin</a></li>
+
+          </ul>
+          
+          
+
+       
+      </section>
+      </div>
    
 
 
@@ -415,6 +444,7 @@
 
     <footer class="footer">
       <div class="container">
+        <div class="footer-tablet__box">
         <section>
         <h2 class="footer-logo">Web<span class="footer-span-logo">Studio</span></h2>
         
@@ -447,6 +477,7 @@
           </svg> </a> </li>
         </ul>
       </section>
+      </div>
 
       <section class="feedback-section">
         <h2 class="footer-feedback__main_title">Підпишіться на розсилку</h2>
@@ -459,30 +490,18 @@
        <li><button class="feedback-list__btn"><h2 class="feedback-list__btn_text">Підписатись</h2><svg class="telegram" ><use href="./images/symbol-defs.svg#telegram"></use></svg></button></li>
       </ul>
       </section>
+    </div>
       
    
     </footer>
 
-    <script>
-      const refs = {
-        openModalBtn: document.querySelector("[data-open-modal]"),
-        closeModalBtn: document.querySelector("[data-close-modal]"),
-        backdrop: document.querySelector("[data-backdrop]"),
-      };
-
-      refs.openModalBtn.addEventListener("click", toggleModal);
-      refs.closeModalBtn.addEventListener("click", toggleModal);
-
-      refs.backdrop.addEventListener("click", logBackdropClick);
-
-      function toggleModal() {
-        refs.backdrop.classList.toggle("is-hidden");
-      }
-
-      function logBackdropClick() {
-        console.log("Це клік в бекдроп");
-      }
+    <script src="./js/modal.js">
+      
     </script>
+
+<script src="./js/mobile-modal.js">
+      
+</script>
   </body>
 
 
