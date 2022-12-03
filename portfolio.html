@@ -32,7 +32,9 @@
         </a>
         <ul class="header__list__pages">
           <li class="header__nav__item">
-            <a class="header__nav__link " href="/">Студія</a>
+            <a class="header__nav__link " href="/"
+              >Студія</a
+            >
           </li>
           <li class="header__nav__item">
             <a class="header__nav__link header__active__page" href="./portfolio.html">
@@ -44,33 +46,35 @@
           </li>
         </ul>
 
-        <ul class="header__list__info">
+        <ul class="header__list-info">
           <li class="header__contacts__item">
-           
-            <a class="header__contacts__link" href="mailto:info@example.com "
-              > <svg class="header__email__svg">
-                <use href="./images/symbol-defs.svg#email">
-
-                </use>
-
-              </svg> info@devstudio.com </a>
-            
+            <a class="header__contacts__link" href="mailto:info@example.com ">
+              <svg class="header__email__svg">
+                <use href="./images/symbol-defs.svg#email"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="header__contacts__item">
-            <a class="header__contacts__link" href="tel:+380991111111"
-               >   <svg class="header__phone__svg">
-                <use href="./images/symbol-defs.svg#phone">
-
-                </use>
-              
-              </svg> +38 096 111 11 11</a -->
-            
+            <a class="header__contacts__link" href="tel:+380991111111">
+              <svg class="header__phone__svg">
+                <use href="./images/symbol-defs.svg#phone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
+        <button data-menu-button class="header-nav__settings" type="button">
+          <svg class="header-settings__svg">
+            <use href="./images/symbol-defs.svg#settings"></use>
+          </svg>
+          <svg class="header_cross">
+            <use href="./images/symbol-defs.svg#close-btn"></use>
+          </svg>
+        </button>
       </nav>
     </div>
   </header>
-  
     <main>
       
         <div class="container">
@@ -223,53 +227,83 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
+      
+      <div class="footer-tablet__box">
         <section>
-        <h2 class="footer-logo">Web<span class="footer-span-logo">Studio</span></h2>
-        
-        <address class="footer__address_info">м. Київ, пр-т Лесі Українки, 26</address>
-  
-        <a href="mailto:info@example.com " class="footer__email"
-          >info@example.com</a
-        >
+          <h2 class="footer-logo">
+            Web<span class="footer-span-logo">Studio</span>
+          </h2>
 
-        <a href="tel:+380991111111" class="footer__phone"
-          >+38 099 111 11 11</a
-        >
-      </section>
+          <address class="footer__address_info">
+            м. Київ, пр-т Лесі Українки, 26
+          </address>
 
-      <section class="footer-socials">
-        <h2 class="footer-socials__title">Приєднуйтесь</h2>
-        <ul class="footer-socials__list">
-          
-          <li class="footer-socials__svg_item"> <a class="footer-socials__links" href="https://www.instagram.com "><svg class="footer-socials__svg"> 
-            <use  href="./images/symbol-defs.svg#instagram">insta</use> 
-          </svg></a> </li>
-          <li class="footer-socials__svg_item"> <a class="footer-socials__links" href="https://twitter.com/home"><svg  class="footer-socials__svg"> 
-            <use  href="./images/symbol-defs.svg#twitter">twitter</use> 
-          </svg> </a></li>
-          <li class="footer-socials__svg_item"> <a class="footer-socials__links" href="https://www.facebook.com"><svg  class="footer-socials__svg"> 
-            <use  href="./images/symbol-defs.svg#facebook">facebook</use> 
-          </svg></a> </li>
-          <li class="footer-socials__svg_item"> <a class="footer-socials__links" href="https://www.linkedin.com"><svg  class="footer-socials__svg"> 
-            <use  href="./images/symbol-defs.svg#in">in</use> 
-          </svg> </a> </li>
-        </ul>
-      </section>
+          <a href="mailto:info@example.com " class="footer__email"
+            >info@example.com</a
+          >
+
+          <a href="tel:+380991111111" class="footer__phone"
+            >+38 099 111 11 11</a
+          >
+        </section>
+
+        <section class="footer-socials">
+          <h2 class="footer-socials__title">Приєднуйтесь</h2>
+          <ul class="footer-socials__list">
+            <li class="footer-socials__svg_item">
+              <a
+                class="footer-socials__links" href="https://www.instagram.com ">
+                <svg class="footer-socials__svg">
+                  <use href="./images/symbol-defs.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials__svg_item">
+              <a class="footer-socials__links" href="https://twitter.com/home"
+                ><svg class="footer-socials__svg">
+                  <use href="./images/symbol-defs.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials__svg_item">
+              <a class="footer-socials__links" href="https://www.facebook.com"
+                ><svg class="footer-socials__svg">
+                  <use href="./images/symbol-defs.svg#facebook"></use>
+                  </svg>
+                </a>
+            </li>
+            <li class="footer-socials__svg_item">
+              <a class="footer-socials__links" href="https://www.linkedin.com">
+                <svg class="footer-socials__svg">
+                  <use href="./images/symbol-defs.svg#in"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
 
       <section class="feedback-section">
         <h2 class="footer-feedback__main_title">Підпишіться на розсилку</h2>
         <ul class="footer-feedback-list">
-        <li class="feedback-list__item"><label for="">
-          <input placeholder="E-mail" class="feedback-list__input" type="text" > 
-        </label>
-      </li>
+          <li class="feedback-list__item">
+            <input
+              placeholder="E-mail"
+              class="feedback-list__input"
+              type="text"
+            />
+          </li>
 
-       <li><button class="feedback-list__btn"><h2 class="feedback-list__btn_text">Підписатись</h2><svg class="telegram" ><use href="./images/symbol-defs.svg#telegram"></use></svg></button></li>
-      </ul>
+          <li>
+            <button class="feedback-list__btn">
+              Підписатись<svg class="telegram">
+                <use href="./images/symbol-defs.svg#telegram"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
       </section>
-      
-   
-    </footer>
+    </div>
+  </footer>
   </body>
 </html>

@@ -1,8 +1,10 @@
 /* FOOTER   */
 // footer .container {
-//     @media screen and (min-width:480px) {
+//     @media screen and (min-width:1200px) {
 
-//     // display: flex;
+//     display: flex;
+//     vertical-align: center;
+//     justify-content: center;
 //     }
 
 //  }
@@ -17,15 +19,24 @@
   font-style: normal;
 
   @media screen and (min-width: 0px) {
-    display: flex;
-    justify-content: center;
+  text-align: center;
   }
+
+ @media screen and (min-width:1200px) {
+text-align: start;
+ }
 }
 
 .footer {
   background-color: #2f303a;
   padding-bottom: 60px;
   padding-top: 60px;
+  @media screen and (min-width:1200px) {
+
+    display: flex;
+    vertical-align: center;
+    justify-content: center;
+    }
 }
 
 .footer-tablet__box {
@@ -47,6 +58,9 @@
   @media screen and (min-width: 0px) {
     text-align: center;
   }
+  @media screen and (min-width:1200px) {
+    text-align: start;
+     }
 }
 .footer-span-logo {
   color: white;
@@ -97,11 +111,18 @@
 }
 
 .footer-socials {
-  padding-top: 60px;
+  @media screen and (min-width:0px) {
+    padding-top: 60px;
+  }
 
   @media screen and (min-width: 768px) {
     margin-left: 178px;
   }
+  @media screen and (min-width:1200px) {
+    margin-left: 50px;
+    margin-right: 50px;
+
+     }
 }
 .footer-socials__list {
   display: flex;
@@ -125,14 +146,21 @@
   @media screen and (min-width: 0px) {
     text-align: center;
   }
+  @media screen and (min-width:1200px) {
+    text-align: start;
+     }
 }
 /* footer section 3 */
 
 .feedback-section {
-  padding: 63px 0px 0px 0px;
+  @media screen and (min-width:0px) {
+    padding-top: 60px;
+  }
+ 
 
   @media screen and (min-width: 768px) {
-    text-align: center;
+    align-items: center;
+
   }
 }
 .footer-feedback__main_title {
@@ -148,7 +176,14 @@
   @media screen and (min-width: 0px) {
     text-align: center;
   }
+  @media screen and (min-width:1200px) {
+    text-align: start;
+     }
+
+
 }
+
+
 
 .feedback-list__input {
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -162,8 +197,8 @@
     height: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
+    // text-align: center;
+   
 
   }
   @media screen and (min-width: 480px) {
@@ -172,6 +207,24 @@
     
 
   }
+  @media screen and (min-width:1200px) {
+    text-align: start;
+    width: 358px;
+     }
+
+
+}
+
+.footer-feedback-list {
+ @media screen and (min-width:1200px) {
+  display: flex;
+  align-items: center;
+ }
+ @media screen and (min-width: 480px) {
+text-align: center;
+  
+
+}
 
 
 }
@@ -183,9 +236,17 @@
     background: #2196f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    /* width: 200px;
-    height: 50px; */
+   width: 200px;
+   height: 50px;
     border: 0;
+    
+  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+   
   @media screen and (min-width: 0px) {
    
     
@@ -195,21 +256,13 @@
     margin-right: auto;
     margin-left: auto;
   }
+  @media screen and (min-width:1200px) {
+    margin-left: 12px;
+     }
 }
 
-.feedback-list__btn_text {
-    display: block;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.06em;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
 
-}
+
 .telegram {
   width: 24px;
   height: 24px;
