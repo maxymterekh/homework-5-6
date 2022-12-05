@@ -270,7 +270,8 @@
 
         margin-left: auto;
         border: 0;
-        background-color: white;
+        background-color: transparent;
+        z-index: 3;
         // @media screen and (min-width: 480px){
             
            
@@ -293,19 +294,12 @@
 
     .header_cross {
         display: none;
-        width: 18px;
-        height: 18px;
+        width: 35px;
+        height: 35px;
         fill: #000000;
     }
 
-    .header-nav__settings:hover {
-        // @media screen and (min-width: 0px) {
-        //     fill: #2196F3;
-        // }
-
-      
-        
-    }
+ 
 
 
 

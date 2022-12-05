@@ -290,7 +290,8 @@ nav {
 .header-nav__settings {
   margin-left: auto;
   border: 0;
-  background-color: white;
+  background-color: transparent;
+  z-index: 3;
 }
 @media screen and (min-width: 768px) {
   .header-nav__settings {
@@ -308,8 +309,8 @@ nav {
 
 .header_cross {
   display: none;
-  width: 18px;
-  height: 18px;
+  width: 35px;
+  height: 35px;
   fill: #000000;
 }
 
@@ -928,9 +929,10 @@ nav {
   transition: -webkit-transform 400ms cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: transform 400ms cubic-bezier(0.215, 0.61, 0.355, 1);
   transition: transform 400ms cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 400ms cubic-bezier(0.215, 0.61, 0.355, 1);
-  z-index: 10;
+  display: block;
+  z-index: 5;
 }
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 480px) {
   .form {
     width: 450px;
   }
@@ -987,6 +989,7 @@ nav {
 
 .form__input_item {
   margin-bottom: 10px;
+  position: relative;
 }
 
 .form__input_item:last-child {
@@ -1002,9 +1005,10 @@ nav {
   color: #757575;
   margin-top: 12px;
   margin-bottom: 4px;
+  display: block;
 }
 
-.form__name:hover .form-svg {
+.form__name:hover .form__svg {
   fill: #2196F3;
 }
 
@@ -1014,7 +1018,7 @@ nav {
   padding-top: 12px;
   padding-bottom: 12px;
 }
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 480px) {
   .form__comm_input {
     width: 338px;
     height: 120px;
@@ -1032,14 +1036,14 @@ nav {
 }
 
 .form__input {
+  padding-left: 40px;
+  padding-right: 40px;
   fill: #2196F3;
 }
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 480px) {
   .form__input {
     width: 290px;
     height: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1057,7 +1061,8 @@ nav {
   width: 18px;
   height: 18px;
   position: absolute;
-  left: 52px;
+  left: 10px;
+  top: 17px;
   padding-top: 12px;
   fill: #000000;
 }
@@ -1135,6 +1140,7 @@ nav {
 }
 
 .mobile-form {
+  padding-top: 50px;
   padding-left: 40px;
   padding-bottom: 48px;
   width: 100%;
@@ -1144,6 +1150,7 @@ nav {
   top: 0;
   left: 0;
   display: none;
+  z-index: 2;
 }
 
 .mobile-form.is-open {
@@ -1178,6 +1185,14 @@ nav {
   letter-spacing: 0.02em;
   color: #000000;
   margin-bottom: 32px;
+}
+
+.mobile-pages__link {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 40px;
+  color: #000000;
+  line-height: 47px;
 }
 
 .mobile-pages__item:hover {
