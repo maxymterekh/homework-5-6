@@ -16,12 +16,13 @@
     letter-spacing: 0.03em;
   
     color: #757575;
+    margin-top: 10px;
   }
   .team-title {
     font-family: 'Roboto';
   
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     margin-top: 20px;
@@ -30,8 +31,10 @@
   }
   .card {
     width: 370px;
-    height: 404px;
+    // height: 404px;
     background: #ffffff;
+    padding-bottom: 20px;
+   
     
     margin-top: 34px;
     border: 1px solid #eeeeee;
@@ -45,6 +48,9 @@
       margin-right: 30px;
       width: 354px;
       height: 440px;
+    }
+    @media screen and (min-width:1200px) {
+       height: 404px;
     }
 
   }

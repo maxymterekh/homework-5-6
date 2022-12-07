@@ -1,5 +1,14 @@
+.header {
+    position: relative;
+}
+.portfolio__line {
+    border: 1px solid #ECECEC;
 
-
+    position: absolute;
+    width: 100%;
+   top: 71px;
+    
+}
  
     .header-logo {
         font-family: 'Raleway';
@@ -86,7 +95,7 @@
             display: block;
             margin-right: 54px;
             position: relative;
-            padding-bottom: 32px;
+            padding-bottom: 33px;
             padding-top: 30px;
 
         }
