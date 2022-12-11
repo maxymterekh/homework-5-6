@@ -117,11 +117,13 @@ text-align: start;
 
   @media screen and (min-width: 768px) {
     margin-left: 178px;
+    padding: 0;
+
   }
   @media screen and (min-width:1200px) {
     margin-left: 50px;
     margin-right: 50px;
-    padding: 0;
+   
 
      }
 }
