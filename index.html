@@ -53,7 +53,7 @@
             <li class="header__contacts__item">
               <a class="header__contacts__link" href="mailto:info@example.com ">
                 <svg class="header__email__svg">
-                  <use href="./images/symbol-defs.svg#email"></use>
+                  <use href="./images-svgs/symbol-defs.svg#email"></use>
                 </svg>
                 info@devstudio.com
               </a>
@@ -61,7 +61,7 @@
             <li class="header__contacts__item">
               <a class="header__contacts__link" href="tel:+380991111111">
                 <svg class="header__phone__svg">
-                  <use href="./images/symbol-defs.svg#phone"></use>
+                  <use href="./images-svgs/symbol-defs.svg#phone"></use>
                 </svg>
                 +38 096 111 11 11</a
               >
@@ -69,10 +69,10 @@
           </ul>
           <button data-menu-button class="header-nav__settings" type="button">
             <svg class="header-settings__svg">
-              <use href="./images/symbol-defs.svg#settings"></use>
+              <use href="./images-svgs/symbol-defs.svg#settings"></use>
             </svg>
             <svg class="header_cross">
-              <use href="./images/symbol-defs.svg#close-btn"></use>
+              <use href="./images-svgs/symbol-defs.svg#close-btn"></use>
             </svg>
           </button>
         </nav>
@@ -148,11 +148,15 @@
                   </h2></a
                 >
               </div>
+              
               <img
                 class="images-section__picture"
-                src="images/img.png"
+               srcset="./images-svgs\images-studio\skills-section\skills-1-desktop@1x.jpg 1x, ./images-svgs\images-studio\skills-section\skills-1-desktop@2x.jpg 2x"
+                src="images-svgs/img.png"
+                width="370px"
                 alt="photo-1"
               />
+           
             </li>
 
             <li class="images-section__item">
@@ -165,7 +169,9 @@
               </div>
               <img
                 class="images-section__picture"
-                src="images/box2.png"
+                srcset="./images-svgs\images-studio\skills-section\skills-2-desktop@1x.jpg 1x, ./images-svgs\images-studio\skills-section\skills-2-desktop@2x.jpg 2x"
+                src="images-svgs/box2.png"
+                width="370px"
                 alt="photo-2"
               />
             </li>
@@ -180,7 +186,9 @@
               </div>
               <img
                 class="images-section__picture"
-                src="images/box3.png"
+                srcset="./images-svgs\images-studio\skills-section\skills-3-desktop@1x.jpg 1x, ./images-svgs\images-studio\skills-section\skills-3-desktop@2x.jpg 2x"
+                src="images-svgs /box3.png"
+                width="370px"
                 alt="photo-3"
               />
             </li>
@@ -196,11 +204,26 @@
 
           <ul class="team-section__list">
             <li class="team-section__card">
+              <picture>
+                <source srcset="
+                 ./images-svgs\images-studio\team\team-1-mobile@1x.jpg 1x,
+                 ./images-svgs\images-studio\team\team-1-mobile@2x.jpg 2x"
+                  media="(max-width: 767px)">
+                  <source srcset="
+                  ./images-svgs\images-studio\team\team-1-tablet@1x.jpg 1x,
+                  ./images-svgs\images-studio\team\team-1-tablet@2x.jpg 2x"
+                   media="(min-width: 768px)">
+                   <source srcset="
+                   ./images-svgs\images-studio\team\team-1-desktop@1x.jpg 1x
+                   ./images-svgs\images-studio\team\team-1-desktop@2x.jpg 2x"
+                    media="(min-width: 1200px)">
               <img
                 class="team-section__image"
-                src="images/img.jpg"
+                src="./images-svgs/img.jpg"
                 alt="team-1"
+                width="270"
               />
+            </picture>
               <h3 class="team-section__title">Ігор Дем'яненко</h3>
               <p class="team-section__professions">Product Designer</p>
               <ul class="team-section__svg-list">
@@ -209,7 +232,7 @@
                     class="team-section__links"
                     href="https://www.instagram.com "
                     ><svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#instagram"></use>
+                      <use href="./images-svgs/symbol-defs.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
@@ -219,98 +242,137 @@
                     href="https://twitter.com/home"
                   >
                     <svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#twitter"></use>
+                      <use href="./images-svgs/symbol-defs.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-section__svg-item">
                   <a class="team-section__links" href="https://www.facebook.com"
                     ><svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#facebook"></use>
+                      <use href="./images-svgs/symbol-defs.svg#facebook"></use>
                       </svg></a>
                 </li>
                 <li class="team-section__svg-item">
                   <a class="team-section__links" href="https://www.linkedin.com"
                     ><svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#in"></use>
+                      <use href="./images-svgs/symbol-defs.svg#in"></use>
                     </svg>
                   </a>
                 </li>
               </ul>
             </li>
             <li class="team-section__card">
+              <picture>
+                <source srcset="
+                ./images-svgs\images-studio\team\team-2-mobile@1x.jpg 1x
+                ./images-svgs\images-studio\team\team-2-mobile@2x.jpg 2x"
+                 media="(max-width: 767px">
+                 <source srcset="
+                 ./images-svgs\images-studio\team\team-2-tablet@1x.jpg 1x
+                 ./images-svgs\images-studio\team\team-2-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)">
+                  <source srcset="
+                  ./images-svgs\images-studio\team\team-2-desktop@1x.jpg 1x
+                  ./images-svgs\images-studio\team\team-2-desktop@2x.jpg 2x"
+                   media="(min-width: 1200px)">
+                 
               <img
                 class="team-section__image"
-                src="images/img(1).jpg"
+                src="images-svgs/img(1).jpg"
+                width="270"
                 alt="team-2"
               />
+            </picture>
               <h3 class="team-section__title">Ольга Репіна</h3>
               <p class="team-section__professions">Frontend Developer</p>
               <ul class="team-section__svg-list">
-                <li class="team-section__svg-item">
-                  <a class="team-section__links" href="https://www.instagram.com " >
-                    <svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#instagram"></use>
+                <li class="team-section__svg_item">
+                  <a
+                    class="team-section__links"
+                    href="https://www.instagram.com "
+                    ><svg class="team-section__svg">
+                      <use href="./images-svgs/symbol-defs.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-section__svg-item">
-                  <a class="team-section__links" href="https://twitter.com/home">
+                  <a
+                    class="team-section__links"
+                    href="https://twitter.com/home"
+                  >
                     <svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#twitter"></use>
+                      <use href="./images-svgs/symbol-defs.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-section__svg-item">
-                  <a class="team-section__links" href="https://www.facebook.com">
-                    <svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#facebook"></use>
-                      </svg>
-                    </a>
+                  <a class="team-section__links" href="https://www.facebook.com"
+                    ><svg class="team-section__svg">
+                      <use href="./images-svgs/symbol-defs.svg#facebook"></use>
+                      </svg></a>
                 </li>
                 <li class="team-section__svg-item">
-                  <a class="team-section__links" href="https://www.linkedin.com">
-                    <svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#in"></use>
+                  <a class="team-section__links" href="https://www.linkedin.com"
+                    ><svg class="team-section__svg">
+                      <use href="./images-svgs/symbol-defs.svg#in"></use>
                     </svg>
                   </a>
                 </li>
               </ul>
             </li>
             <li class="team-section__card">
+              <picture>
+                <source srcset="
+                ./images-svgs\images-studio\team\team-3-desktop@1x.jpg 1x
+                ./images-svgs\images-studio\team\team-3-desktop@2x.jpg 2x"
+                 media="(min-width: 1200px)">
+                 <source srcset="
+                 ./images-svgs\images-studio\team\team-3-tablet@1x.jpg 1x
+                 ./images-svgs\images-studio\team\team-3-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)">
+                  <source srcset="
+                  ./images-svgs\images-studio\team\team-3-mobile@1x.jpg 1x
+                  ./images-svgs\images-studio\team\team-3-mobile@2x.jpg 2x"
+                   media="(max-width: 767px">
               <img
                 class="team-section__image"
-                src="images/img(2).jpg"
+                src="images-svgs/img(2).jpg"
+                width="270"
                 alt="team-3"
               />
+              </picture>
               <h3 class="team-section__title">Микола Тарасов</h3>
               <p class="team-section__professions">Marketing</p>
               <ul class="team-section__svg-list">
-                <li class="team-section__svg-item">
-                  <a class="team-section__links" href="https://www.instagram.com " >
-                    <svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#instagram"></use>
+                <li class="team-section__svg_item">
+                  <a
+                    class="team-section__links"
+                    href="https://www.instagram.com "
+                    ><svg class="team-section__svg">
+                      <use href="./images-svgs/symbol-defs.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-section__svg-item">
-                  <a class="team-section__links" href="https://twitter.com/home">
+                  <a
+                    class="team-section__links"
+                    href="https://twitter.com/home"
+                  >
                     <svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#twitter"></use>
+                      <use href="./images-svgs/symbol-defs.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-section__svg-item">
-                  <a class="team-section__links" href="https://www.facebook.com">
-                    <svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#facebook"></use>
-                      </svg>
-                    </a>
+                  <a class="team-section__links" href="https://www.facebook.com"
+                    ><svg class="team-section__svg">
+                      <use href="./images-svgs/symbol-defs.svg#facebook"></use>
+                      </svg></a>
                 </li>
                 <li class="team-section__svg-item">
-                  <a class="team-section__links" href="https://www.linkedin.com">
-                    <svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#in"></use>
+                  <a class="team-section__links" href="https://www.linkedin.com"
+                    ><svg class="team-section__svg">
+                      <use href="./images-svgs/symbol-defs.svg#in"></use>
                     </svg>
                   </a>
                 </li>
@@ -318,44 +380,62 @@
             </li>
 
             <li class="team-section__card">
+              <picture>
+                <source srcset="
+                ./images-svgs\images-studio\team\team-4-desktop@1x.jpg 1x
+                ./images-svgs\images-studio\team\team-4-desktop@2x.jpg 2x"
+                 media="(min-width: 1200px)">
+                 <source srcset="
+                 ./images-svgs\images-studio\team\team-4-tablet@1x.jpg 1x
+                 ./images-svgs\images-studio\team\team-4-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)">
+                  <source srcset="
+                  ./images-svgs\images-studio\team\team-4-mobile@1x.jpg 1x
+                  ./images-svgs\images-studio\team\team-4-mobile@2x.jpg 2x"
+                   media="(max-width: 767px">
               <img
                 class="team-section__image"
-                src="images/img(3).jpg"
+                src="images-svgs/img(3).jpg"
+                width="270"
                 alt="team-4"
               />
+              </picture>
               <h2 class="team-section__title">Михайло Єрмаков</h2>
               <p class="team-section__professions">UI Designer</p>
               <ul class="team-section__svg-list">
-                <li class="team-section__svg-item">
-                  <a class="team-section__links" href="https://www.instagram.com " >
-                    <svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#instagram"></use>
+                <li class="team-section__svg_item">
+                  <a
+                    class="team-section__links"
+                    href="https://www.instagram.com "
+                    ><svg class="team-section__svg">
+                      <use href="./images-svgs/symbol-defs.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-section__svg-item">
-                  <a class="team-section__links" href="https://twitter.com/home">
+                  <a
+                    class="team-section__links"
+                    href="https://twitter.com/home"
+                  >
                     <svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#twitter"></use>
+                      <use href="./images-svgs/symbol-defs.svg#twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="team-section__svg-item">
-                  <a class="team-section__links" href="https://www.facebook.com">
-                    <svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#facebook"></use>
-                      </svg>
-                    </a>
+                  <a class="team-section__links" href="https://www.facebook.com"
+                    ><svg class="team-section__svg">
+                      <use href="./images-svgs/symbol-defs.svg#facebook"></use>
+                      </svg></a>
                 </li>
                 <li class="team-section__svg-item">
-                  <a class="team-section__links" href="https://www.linkedin.com">
-                    <svg class="team-section__svg">
-                      <use href="./images/symbol-defs.svg#in"></use>
+                  <a class="team-section__links" href="https://www.linkedin.com"
+                    ><svg class="team-section__svg">
+                      <use href="./images-svgs/symbol-defs.svg#in"></use>
                     </svg>
                   </a>
                 </li>
               </ul>
-            
             </div>
       </section>
 
@@ -369,7 +449,7 @@
             <li class="clients-section__item">
               <a class="clients-section__link" href="/">
                 <svg class="clients-section__svg">
-                  <use href="./images/symbol-defs.svg#logo-1"></use>
+                  <use href="./images-svgs/symbol-defs.svg#logo-1"></use>
                 </svg>
               </a>
             </li>
@@ -377,7 +457,7 @@
             <li class="clients-section__item">
               <a class="clients-section__link" href="/">
                 <svg class="clients-section__svg">
-                  <use href="./images/symbol-defs.svg#logo-2"></use>
+                  <use href="./images-svgs/symbol-defs.svg#logo-2"></use>
                 </svg>
               </a>
             </li>
@@ -385,7 +465,7 @@
             <li class="clients-section__item">
               <a class="clients-section__link" href="/">
                 <svg class="clients-section__svg">
-                  <use href="./images/symbol-defs.svg#logo-3"></use>
+                  <use href="./images-svgs/symbol-defs.svg#logo-3"></use>
                 </svg>
               </a>
             </li>
@@ -393,7 +473,7 @@
             <li class="clients-section__item">
               <a class="clients-section__link" href="/">
                 <svg class="clients-section__svg">
-                  <use href="./images/symbol-defs.svg#logo-4"></use>
+                  <use href="./images-svgs/symbol-defs.svg#logo-4"></use>
                 </svg>
               </a>
             </li>
@@ -401,7 +481,7 @@
             <li class="clients-section__item">
               <a class="clients-section__link" href="/">
                 <svg class="clients-section__svg">
-                  <use href="./images/symbol-defs.svg#logo-5"></use>
+                  <use href="./images-svgs/symbol-defs.svg#logo-5"></use>
                 </svg>
               </a>
             </li>
@@ -409,7 +489,7 @@
             <li class="clients-section__item">
               <a class="clients-section__link" href="/">
                 <svg class="clients-section__svg">
-                  <use href="./images/symbol-defs.svg#logo-6"></use>
+                  <use href="./images-svgs/symbol-defs.svg#logo-6"></use>
                 </svg>
               </a>
             </li>
@@ -421,7 +501,7 @@
         <section class="form">
           <button data-close-modal class="form__close_btn">
             <svg class="form__close_svg">
-              <use href="./images/symbol-defs.svg#close-btn"></use>
+              <use href="./images-svgs/symbol-defs.svg#close-btn"></use>
             </svg>
           </button>
 
@@ -433,7 +513,7 @@
             <li class="form__input_item">
               <label class="form__name" for="name"> Ім'я   </label>
               <svg class="form__svg">
-                <use href="./images/symbol-defs.svg#human"></use>
+                <use href="./images-svgs/symbol-defs.svg#human"></use>
               </svg>
               <input class="form__input" id="name" type="text" /> 
             </li>
@@ -441,7 +521,7 @@
             <li class="form__input_item">
               <label class="form__name" for="phone"> Телефон </label>
               <svg class="form__svg">
-                <use href="./images/symbol-defs.svg#phone-1"></use>
+                <use href="./images-svgs/symbol-defs.svg#phone-1"></use>
               </svg>
               <input class="form__input" id="phone" type="text" />
             </li>
@@ -449,7 +529,7 @@
             <li class="form__input_item">
               <label class="form__name" for="post"> Пошта </label>
               <svg class="form__svg">
-                <use href="./images/symbol-defs.svg#post"></use>
+                <use href="./images-svgs/symbol-defs.svg#post"></use>
               </svg>
               <input class="form__input" id="post" type="text" />
             </li>
@@ -489,7 +569,7 @@
         <section data-menu class="mobile-form">
           <button  class="mobile__close_btn">
             <svg class="mobile__close_svg">
-              <use href="./images/symbol-defs.svg#close-btn"></use>
+              <use href="./images-svgs/symbol-defs.svg#close-btn"></use>
             </svg>
           </button>
           <ul class="mobile-pages">
@@ -522,7 +602,7 @@
         <section data-menu class="mobile-form">
           <button  class="mobile__close_btn">
             <svg class="mobile__close_svg">
-              <use href="./images/symbol-defs.svg#close-btn"></use>
+              <use href="./images-svgs/symbol-defs.svg#close-btn"></use>
             </svg>
           </button>
           <ul class="mobile-pages">
@@ -582,28 +662,28 @@
                 <a
                   class="footer-socials__links" href="https://www.instagram.com ">
                   <svg class="footer-socials__svg">
-                    <use href="./images/symbol-defs.svg#instagram"></use>
+                    <use href="./images-svgs/symbol-defs.svg#instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="footer-socials__svg_item">
                 <a class="footer-socials__links" href="https://twitter.com/home"
                   ><svg class="footer-socials__svg">
-                    <use href="./images/symbol-defs.svg#twitter"></use>
+                    <use href="./images-svgs/symbol-defs.svg#twitter"></use>
                   </svg>
                 </a>
               </li>
               <li class="footer-socials__svg_item">
                 <a class="footer-socials__links" href="https://www.facebook.com"
                   ><svg class="footer-socials__svg">
-                    <use href="./images/symbol-defs.svg#facebook"></use>
+                    <use href="./images-svgs/symbol-defs.svg#facebook"></use>
                     </svg>
                   </a>
               </li>
               <li class="footer-socials__svg_item">
                 <a class="footer-socials__links" href="https://www.linkedin.com">
                   <svg class="footer-socials__svg">
-                    <use href="./images/symbol-defs.svg#in"></use>
+                    <use href="./images-svgs/symbol-defs.svg#in"></use>
                   </svg>
                 </a>
               </li>
@@ -625,7 +705,7 @@
             <li>
               <button class="feedback-list__btn">
                 Підписатись<svg class="telegram">
-                  <use href="./images/symbol-defs.svg#telegram"></use>
+                  <use href="./images-svgs/symbol-defs.svg#telegram"></use>
                 </svg>
               </button>
             </li>

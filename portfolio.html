@@ -51,7 +51,7 @@
           <li class="header__contacts__item">
             <a class="header__contacts__link" href="mailto:info@example.com ">
               <svg class="header__email__svg">
-                <use href="./images/symbol-defs.svg#email"></use>
+                <use href="./images-svgs/symbol-defs.svg#email"></use>
               </svg>
               info@devstudio.com
             </a>
@@ -59,7 +59,7 @@
           <li class="header__contacts__item">
             <a class="header__contacts__link" href="tel:+380991111111">
               <svg class="header__phone__svg">
-                <use href="./images/symbol-defs.svg#phone"></use>
+                <use href="./images-svgs/symbol-defs.svg#phone"></use>
               </svg>
               +38 096 111 11 11
             </a>
@@ -67,10 +67,10 @@
         </ul>
         <button data-menu-button class="header-nav__settings" type="button">
           <svg class="header-settings__svg">
-            <use href="./images/symbol-defs.svg#settings"></use>
+            <use href="./images-svgs/symbol-defs.svg#settings"></use>
           </svg>
           <svg class="header_cross">
-            <use href="./images/symbol-defs.svg#close-btn"></use>
+            <use href="./images-svgs/symbol-defs.svg#close-btn"></use>
           </svg>
         </button>
       </nav>
@@ -105,9 +105,24 @@
           <div class="container">
               <ul class="cards-list">
                 <li class="card">
-                    
-                      <img class="card-img" src="./portfolio/images22/img(10).png" alt="team-4">
-                <div class="card-overlay">
+                  <picture>
+                    <source srcset="
+                    ./portfolio\images22\images-portfolio\1\portfolio-1-mobile@1x.jpg 1x
+                    ./portfolio\images22\images-portfolio\1\portfolio-1-mobile@2x.jpg 2x"
+                     media="(max-width:767px)">
+                     <source srcset="
+                     ./portfolio\images22\images-portfolio\1\portfolio-1-tablet@1x.jpg 1x
+                     ./portfolio\images22\images-portfolio\1\portfolio-1-tablet@2x.jpg 2x"
+                      media="(min-width:768px)">
+                      <source srcset="
+                      ./portfolio\images22\images-portfolio\1\portfolio-1-desktop@1x.jpg 1x
+                      ./portfolio\images22\images-portfolio\1\portfolio-1-desktop@2x.jpg 2x"
+                       media="(min-width:1200px)">
+                      
+                       <img class="card-img" width="370" src="./portfolio/images22/img(10).png" alt="team-4">
+                
+                      </picture>
+                       <div class="card-overlay">
                   <h2 class="overlay-text">Технокрик це сучасний майданчик поширення коронавірусу. 
                     Компанії використовують цю платформу для цифрового шпигунства та атак на захищені сервери конкурентів.</h2>
                 </div>
@@ -118,8 +133,21 @@
                     
                   </li>
                   <li class="card">
-                    
-                      <img class="card-img" src="./portfolio/images22/img(11).png" alt="team-4">
+                    <picture>
+                      <source srcset="
+                      ./portfolio\images22\images-portfolio\2\portfolio-2-mobile@1x.jpg 1x
+                      ./portfolio\images22\images-portfolio\2\portfolio-2-mobile@2x.jpg 2x"
+                       media="(max-width:767px)">
+                       <source srcset="
+                       ./portfolio\images22\images-portfolio\2\portfolio-2-tablet@1x.jpg 1x
+                       ./portfolio\images22\images-portfolio\2\portfolio-2-tablet@2x.jpg 2x"
+                        media="(min-width:768px)">
+                        <source srcset="
+                        ./portfolio\images22\images-portfolio\2\portfolio-2-desktop@1x.jpg 1x
+                        ./portfolio\images22\images-portfolio\2\portfolio-2-desktop@2x.jpg 2x"
+                         media="(min-width:1200px)">
+                      <img class="card-img" width="370" src="./portfolio/images22/img(11).png" alt="team-4">
+                    </picture>
                       <div class="card-overlay">
                         <h2 class="overlay-text">Технокрик це сучасний майданчик поширення коронавірусу. 
                           Компанії використовують цю платформу для цифрового шпигунства та атак на захищені сервери конкурентів.</h2>
@@ -130,8 +158,21 @@
                     </div>
                   </li >
                   <li class="card">
-                    
-                      <img class="card-img" src="./portfolio/images22/img(3).png" alt="team-4">
+                    <picture>
+                      <source srcset="
+                      ./portfolio\images22\images-portfolio\3\portfolio-3-mobile@1x.jpg 1x
+                      ./portfolio\images22\images-portfolio\3\portfolio-3-mobile@2x.jpg 2x"
+                       media="(max-width:767px)">
+                       <source srcset="
+                       ./portfolio\images22\images-portfolio\3\portfolio-3-tablet@1x.jpg 1x
+                       ./portfolio\images22\images-portfolio\3\portfolio-3-tablet@2x.jpg 2x"
+                        media="(min-width:768px)">
+                        <source srcset="
+                        ./portfolio\images22\images-portfolio\3\portfolio-3-desktop@1x.jpg 1x
+                        ./portfolio\images22\images-portfolio\3\portfolio-3-desktop@2x.jpg 2x"
+                         media="(min-width:1200px)">
+                      <img class="card-img" width="370" src="./portfolio/images22/img(3).png" alt="team-4">
+                      </picture>
                       <div class="card-overlay">
                         <h2 class="overlay-text">Технокрик це сучасний майданчик поширення коронавірусу. 
                           Компанії використовують цю платформу для цифрового шпигунства та атак на захищені сервери конкурентів.</h2>
@@ -143,8 +184,21 @@
                     </div>
                   </li>
                   <li class="card">
-                    
-                      <img class="card-img" src="./portfolio/images22/img(4).png" alt="team-4">
+                    <picture>
+                      <source srcset="
+                      ./portfolio\images22\images-portfolio\4\portfolio-4-mobile@1x.jpg 1x
+                      ./portfolio\images22\images-portfolio\4\portfolio-4-mobile@2x.jpg 2x"
+                       media="(max-width:767px)">
+                       <source srcset="
+                       ./portfolio\images22\images-portfolio\4\portfolio-4-tablet@1x.jpg 1x
+                       ./portfolio\images22\images-portfolio\4\portfolio-4-tablet@2x.jpg 2x"
+                        media="(min-width:768px)">
+                        <source srcset="
+                        ./portfolio\images22\images-portfolio\4\portfolio-4-desktop@1x.jpg 1x
+                        ./portfolio\images22\images-portfolio\4\portfolio-4-desktop@2x.jpg 2x"
+                         media="(min-width:1200px)">
+                      <img class="card-img" width="370" src="./portfolio/images22/img(4).png" alt="team-4">
+                      </picture>
                       <div class="card-overlay">
                         <h2 class="overlay-text">Технокрик це сучасний майданчик поширення коронавірусу. 
                           Компанії використовують цю платформу для цифрового шпигунства та атак на захищені сервери конкурентів.</h2>
@@ -156,8 +210,22 @@
                     </div>
                   </li>
                   <li class="card">
-                    
-                      <img class="card-img" src="./portfolio/images22/img(5).png" alt="team-4">
+                    <picture>
+                    <source srcset="
+                    ./portfolio\images22\images-portfolio\5\portfolio-5-mobile@1x.jpg 1x
+                    ./portfolio\images22\images-portfolio\5\portfolio-5-mobile@2x.jpg 2x"
+                     media="(max-width:767px)">
+                     <source srcset="
+                     ./portfolio\images22\images-portfolio\5\portfolio-5-tablet@1x.jpg 1x
+                     ./portfolio\images22\images-portfolio\5\portfolio-5-tablet@2x.jpg 2x"
+                      media="(min-width:768px)">
+                      <source srcset="
+                      ./portfolio\images22\images-portfolio\5\portfolio-5-desktop@1x.jpg 1x
+                      ./portfolio\images22\images-portfolio\5\portfolio-5-desktop@2x.jpg 2x"
+                       media="(min-width:1200px)">
+                      <img class="card-img" width="370" src="./portfolio/images22/img(5).png" alt="team-4">
+                    </picture>
+                      
                       <div class="card-overlay">
                         <h2 class="overlay-text">Технокрик це сучасний майданчик поширення коронавірусу. 
                           Компанії використовують цю платформу для цифрового шпигунства та атак на захищені сервери конкурентів.</h2>
@@ -169,8 +237,22 @@
                     </div>
                   </li>
                   <li class="card">
-                    
-                      <img class="card-img" src="./portfolio/images22/img(6).png" alt="team-4">
+                    <picture>
+                      <source srcset="
+                      ./portfolio\images22\images-portfolio\6\portfolio-6-mobile@1x.jpg 1x
+                      ./portfolio\images22\images-portfolio\6\portfolio-6-mobile@2x.jpg 2x"
+                       media="(max-width:767px)">
+                       <source srcset="
+                       ./portfolio\images22\images-portfolio\6\portfolio-6-tablet@1x.jpg 1x
+                       ./portfolio\images22\images-portfolio\6\portfolio-6-tablet@2x.jpg 2x"
+                        media="(min-width:768px)">
+                        <source srcset="
+                        ./portfolio\images22\images-portfolio\6\portfolio-6-desktop@1x.jpg 1x
+                        ./portfolio\images22\images-portfolio\6\portfolio-6-desktop@2x.jpg 2x"
+                         media="(min-width:1200px)">
+                      <img class="card-img" width="370" src="./portfolio/images22/img(6).png" alt="team-4">
+                      </picture>
+                      
                       <div class="card-overlay">
                         <h2 class="overlay-text">Технокрик це сучасний майданчик поширення коронавірусу. 
                           Компанії використовують цю платформу для цифрового шпигунства та атак на захищені сервери конкурентів.</h2>
@@ -182,8 +264,21 @@
                     </div>
                   </li>
                   <li class="card">
-                    
-                      <img class="card-img" src="./portfolio/images22/img(7).png" alt="team-4">
+                    <picture>
+                      <source srcset="
+                      ./portfolio\images22\images-portfolio\7\portfolio-7-mobile@1x.jpg 1x
+                      ./portfolio\images22\images-portfolio\7\portfolio-7-mobile@2x.jpg 2x"
+                       media="(max-width:767px)">
+                       <source srcset="
+                       ./portfolio\images22\images-portfolio\7\portfolio-7-tablet@1x.jpg 1x
+                       ./portfolio\images22\images-portfolio\7\portfolio-7-tablet@2x.jpg 2x"
+                        media="(min-width:768px)">
+                        <source srcset="
+                        ./portfolio\images22\images-portfolio\7\portfolio-7-desktop@1x.jpg 1x
+                        ./portfolio\images22\images-portfolio\7\portfolio-7-desktop@2x.jpg 2x"
+                         media="(min-width:1200px)">
+                      <img class="card-img" width="370" src="./portfolio/images22/img(7).png" alt="team-4">
+                      </picture>
                       <div class="card-overlay">
                         <h2 class="overlay-text">Технокрик це сучасний майданчик поширення коронавірусу. 
                           Компанії використовують цю платформу для цифрового шпигунства та атак на захищені сервери конкурентів.</h2>
@@ -195,8 +290,22 @@
                     </div>
                   </li>
                   <li class="card">
-                    
-                      <img class="card-img" src="./portfolio/images22/img(8).png" alt="team-4">
+                    <picture>
+                    <source srcset="
+                    ./portfolio\images22\images-portfolio\8\portfolio-8-mobile@1x.jpg 1x
+                    ./portfolio\images22\images-portfolio\8\portfolio-8-mobile@2x.jpg 2x"
+                     media="(max-width:767px)">
+                     <source srcset="
+                     ./portfolio\images22\images-portfolio\8\portfolio-8-tablet@1x.jpg 1x
+                     ./portfolio\images22\images-portfolio\8\portfolio-8-tablet@2x.jpg 2x"
+                      media="(min-width:768px)">
+                      <source srcset="
+                      ./portfolio\images22\images-portfolio\8\portfolio-8-desktop@1x.jpg 1x
+                      ./portfolio\images22\images-portfolio\8\portfolio-8-desktop@2x.jpg 2x"
+                       media="(min-width:1200px)">
+                      <img class="card-img" width="370" src="./portfolio/images22/img(8).png" alt="team-4">
+                      </picture>
+
                       <div class="card-overlay">
                         <h2 class="overlay-text">Технокрик це сучасний майданчик поширення коронавірусу. 
                           Компанії використовують цю платформу для цифрового шпигунства та атак на захищені сервери конкурентів.</h2>
@@ -208,8 +317,23 @@
                     </div>
                   </li>
                   <li class="card">
+                    <picture>
+
+                    <source srcset="
+                    ./portfolio\images22\images-portfolio\9\portfolio-9-mobile@1x.jpg 1x
+                    ./portfolio\images22\images-portfolio\9\portfolio-9-mobile@2x.jpg 2x"
+                     media="(max-width:767px)">
+                     <source srcset="
+                     ./portfolio\images22\images-portfolio\9\portfolio-9-tablet@1x.jpg 1x
+                     ./portfolio\images22\images-portfolio\9\portfolio-9-tablet@2x.jpg 2x"
+                      media="(min-width:768px)">
+                      <source srcset="
+                      ./portfolio\images22\images-portfolio\9\portfolio-9-desktop@1x.jpg 1x
+                      ./portfolio\images22\images-portfolio\9\portfolio-9-desktop@2x.jpg 2x"
+                       media="(min-width:1200px)">
                     
-                      <img class="card-img" src="./portfolio/images22/img(9).png" alt="team-4">
+                      <img class="card-img" width="370" src="./portfolio/images22/img(9).png" alt="team-4" >
+                        </picture>
                       <div class="card-overlay">
                         <h2 class="overlay-text">Технокрик це сучасний майданчик поширення коронавірусу. 
                           Компанії використовують цю платформу для цифрового шпигунства та атак на захищені сервери конкурентів.</h2>
@@ -226,7 +350,7 @@
               <section data-menu class="mobile-form">
                 <button  class="mobile__close_btn">
                   <svg class="mobile__close_svg">
-                    <use href="./images/symbol-defs.svg#close-btn"></use>
+                    <use href="./images-svgs/symbol-defs.svg#close-btn"></use>
                   </svg>
                 </button>
                 <ul class="mobile-pages">
@@ -289,28 +413,28 @@
               <a
                 class="footer-socials__links" href="https://www.instagram.com ">
                 <svg class="footer-socials__svg">
-                  <use href="./images/symbol-defs.svg#instagram"></use>
+                  <use href="./images-svgs/symbol-defs.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-socials__svg_item">
               <a class="footer-socials__links" href="https://twitter.com/home"
                 ><svg class="footer-socials__svg">
-                  <use href="./images/symbol-defs.svg#twitter"></use>
+                  <use href="./images-svgs/symbol-defs.svg#twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-socials__svg_item">
               <a class="footer-socials__links" href="https://www.facebook.com"
                 ><svg class="footer-socials__svg">
-                  <use href="./images/symbol-defs.svg#facebook"></use>
+                  <use href="./images-svgs/symbol-defs.svg#facebook"></use>
                   </svg>
                 </a>
             </li>
             <li class="footer-socials__svg_item">
               <a class="footer-socials__links" href="https://www.linkedin.com">
                 <svg class="footer-socials__svg">
-                  <use href="./images/symbol-defs.svg#in"></use>
+                  <use href="./images-svgs/symbol-defs.svg#in"></use>
                 </svg>
               </a>
             </li>
@@ -332,7 +456,7 @@
           <li>
             <button class="feedback-list__btn">
               Підписатись<svg class="telegram">
-                <use href="./images/symbol-defs.svg#telegram"></use>
+                <use href="./images-svgs/symbol-defs.svg#telegram"></use>
               </svg>
             </button>
           </li>

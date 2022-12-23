@@ -86,16 +86,16 @@
     
     }
     .skills-section__item:nth-child(1)::before {
-    content: url(../images/antenna\ 1\ \(2\).png);
+    content: url(../images-svgs/antenna\ 1\ \(2\).png);
     }
     .skills-section__item:nth-child(2)::before{
-    content: url(../images/clock\ 1\ \(1\).png);
+    content: url(../images-svgs/clock\ 1\ \(1\).png);
     }
     .skills-section__item:nth-child(3)::before{
-        content: url(../images/diagram\ 1\ \(1\).png);
+        content: url(../images-svgs/diagram\ 1\ \(1\).png);
      }
      .skills-section__item:nth-child(4)::before{
-     content: url(../images/astronaut\ 1\ \(1\).png);
+     content: url(../images-svgs/astronaut\ 1\ \(1\).png);
       }
     .skills-section__list {
         display: flex;
